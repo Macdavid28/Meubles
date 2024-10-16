@@ -43,6 +43,7 @@ export const Contact = () => {
         autoClose: 500,
         pauseOnFocusLoss: false,
         pauseOnHover: false,
+        hideProgressBar: true,
       });
       reset();
     } catch (error) {
@@ -50,6 +51,7 @@ export const Contact = () => {
         autoClose: 500,
         pauseOnFocusLoss: false,
         pauseOnHover: false,
+        hideProgressBar: true,
       });
       reset();
       console.error("Error sending message", error);
@@ -66,14 +68,14 @@ export const Contact = () => {
                 type="text"
                 placeholder="First Name"
                 className="border border-gray-500 p-2 m-2 outline-none placeholder:font-light placeholder:text-black"
-                name="first_name"
+                name="firstName"
                 {...register("firstName")}
               />
               <input
                 type="text"
                 placeholder="Last Name"
                 className="border border-gray-500 p-2 m-2 outline-none placeholder:font-light placeholder:text-black"
-                name="last_name"
+                name="lastName"
                 {...register("lastName")}
               />
               <input
@@ -87,7 +89,7 @@ export const Contact = () => {
                 type="tel"
                 placeholder="Phone Number"
                 className="border border-gray-500 p-2 m-2 outline-none placeholder:font-light placeholder:text-black"
-                name="phone_number"
+                name="phoneNumber"
                 {...register("phoneNumber")}
               />
 

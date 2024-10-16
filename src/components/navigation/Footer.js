@@ -65,14 +65,23 @@ export const Footer = () => {
                 Receive updates to new arrivals and sales on our exquisite
                 collection
               </p>
-
-              <div className="md:py-4 md:mx-2 flex items-center justify-start gap-2">
+              <div className="mt-6 flex max-w-md gap-x-4">
+                <label htmlFor="email-address" className="sr-only">
+                  Email address
+                </label>
                 <input
-                  type="text"
-                  placeholder="Email address..."
-                  className="max-[320px]:p-1 p-2 placeholder:text-xs"
+                  id="email-address"
+                  name="email"
+                  type="email"
+                  required
+                  placeholder="Enter your email"
+                  autoComplete="email"
+                  className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm outline-none sm:text-sm sm:leading-6 placeholder:text-white"
                 />
-                <button className="bg-black 320:text-xs text-md md:text-sm text-white p-2 hover:bg-[rgba(0,0,0,0.8)]">
+                <button
+                  type="submit"
+                  className="flex-none rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm "
+                >
                   Subscribe
                 </button>
               </div>

@@ -10,7 +10,6 @@ import "swiper/swiper-bundle.css";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 export const SalesDealsCard = ({ salesDealsList }) => {
-
   // Function to display star icons based on rating
   const renderStars = (rating) => {
     const stars = [];
@@ -27,8 +26,8 @@ export const SalesDealsCard = ({ salesDealsList }) => {
   return (
     <div>
       <div className="flex justify-between items-center z-10  ">
-        <h1 className="p-8 text-3xl font-cinzel">Sales Deals</h1>
-        <p className="flex items-center justify-center text-lg cursor-pointer pr-8">
+        <h1 className="px-8 my-8 text-4xl font-bold tracking-tight">Sales Deals</h1>
+        <p className="flex items-center justify-center text-lg font-semibold cursor-pointer pr-8">
           Show More <ArrowRightIcon className="w-6 h-3" />
         </p>
       </div>
@@ -57,7 +56,7 @@ export const SalesDealsCard = ({ salesDealsList }) => {
         >
           {salesDealsList.map((salesItem, index) => (
             <SwiperSlide key={salesItem.id}>
-              <ul className="border border-gray-300 rounded-md p-4 relative font-cinzel">
+              <ul className="border border-gray-300 rounded-md p-4 relative ">
                 <div className="relative">
                   <img
                     src={salesItem.img}

@@ -20,7 +20,7 @@ export const RoomCard = ({ name, id, imgUrl, link }) => {
         <div className="absolute inset-0 bg-gray-500 opacity-0 hover:opacity-60 z-10 transition-opacity duration-300"></div>
       </div>
       <div className="bg-gray-300 bg-opacity-45 ">
-        <h1 className="text-center text-xl  w-full py-2 border border-black bg-black text-white font-cinzel ">
+        <h1 className="text-center text-xl  w-full py-2 border border-black bg-gray-900 text-white font-cinzel ">
           {name}
         </h1>
       </div>

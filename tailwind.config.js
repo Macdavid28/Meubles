@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         cinzel: "Cinzel Decorative",
+        quicksand: "Quicksand",
       },
     },
     backgroundImage: {

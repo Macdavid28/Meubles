@@ -13,7 +13,7 @@ export const wishlistSlice = createSlice({
       const newItem = action.payload;
       const existingItem = state.wishlist.find((item) => item.id === newItem.id);
       if (existingItem) {
-        state.wishlist = state.wishlist.filter(
+        state.wishlist.filter(
           (item) => item.id !== newItem.id
         );
         state.totalQuantity--;

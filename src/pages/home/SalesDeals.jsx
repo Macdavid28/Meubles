@@ -1,5 +1,5 @@
 import { SalesData } from "../../constants/index";
-import { SalesDealsCard } from "../../ui/cards-skeleton/SalesDealsCard";
+import { SalesDealsCard } from "../../ui/cards-layout/SalesDealsCard";
 import { useState } from "react";
 
 export const SalesDeals = () => {

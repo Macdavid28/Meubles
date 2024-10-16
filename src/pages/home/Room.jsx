@@ -1,4 +1,4 @@
-import { RoomCard } from "../../ui/cards-skeleton/RoomCard";
+import { RoomCard } from "../../ui/cards-layout/RoomCard";
 export const Rooms = () => {
   const roomList = [
     {

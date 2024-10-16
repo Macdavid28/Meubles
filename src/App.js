@@ -33,6 +33,8 @@ import { ProductDetails } from "./components/details/ProductDetails";
 import { LivingRoom } from "./components/rooms/LivingRoom";
 import { BedRoom } from "./components/rooms/BedRoom";
 import { DiningRoom } from "./components/rooms/DiningRoom";
+import { Bulletin } from "./pages/Bulletin";
+import { Search } from "./pages/Search";
 function App() {
   return (
     <div className="App">
@@ -48,6 +50,8 @@ function App() {
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/account" element={<Account />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bulletin" element={<Bulletin />} />
+          <Route path="/search" element={<Search />} />
           {/* Products Routes */}
           <Route path="/products" element={<Products />} />
           <Route path="/products/2" element={<ProductTwo />} />

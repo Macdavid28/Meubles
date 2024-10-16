@@ -34,7 +34,7 @@ const ProductDropdown = ({ title, items, isMobile }) => {
             )}
           </button>
         ) : (
-          <button className="flex items-center text-[16px] lg:text-[16px]  focus:text-black w-full">
+          <button className="flex items-center text-[16px] lg:text-[17.5px]  focus:text-black w-full">
             {title}
             {isOpen ? (
               <ChevronUpIcon className="w-5 lg:w-6 text-black  cursor-pointer" />
