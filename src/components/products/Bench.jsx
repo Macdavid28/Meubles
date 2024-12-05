@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import benches from "../../data/products.json";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
-import { BenchLayout } from "./../../ui/product-layout/BenchLayout";
+import { BenchLayout } from "../../ui/product-layout/BenchLayout";
 export const Bench = () => {
   return (
     <div className="mt-8 font-cinzel">

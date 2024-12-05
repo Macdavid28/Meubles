@@ -1,25 +1,28 @@
+// import { HomeModernIcon } from "@heroicons/react/24/solid";
 import products from "../../data/products.json";
-import { useParams } from "react-router-dom";
-import { ShoppingBagIcon } from "@heroicons/react/24/solid";
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+import {
+  ShoppingBagIcon,
+  HeartIcon,
+  ChevronRightIcon,
+} from "@heroicons/react/24/outline";
 
 export const ProductDetails = () => {
   const { name } = useParams();
-  const productData = products.products;
-  const product = productData.find(
+  const productsList = products.products;
+  const product = productsList.find(
     (item) => item.name.toLowerCase() === name.toLowerCase()
   );
   if (!product) {
     return (
-      <div className="bg-[#F5F5F5] min-h-screen flex flex-col justify-center items-center">
+      <div className="min-h-screen flex flex-col justify-center items-center">
         <div className="block text-center md:p-32 py-32">
           <h1 className="text-gray-500 text-md md:text-xl p-3">
             Product Not Found
           </h1>
-          <Link to="/products">
-            <button className="w-64 h-12 bg-gray-400 rounded-md text-black text-sm font-normal uppercase m-4 ">
-              Continue Shopping
+          <Link to="/">
+            <button className="w-64 h-12 mx-auto bg-gray-500 rounded-md text-black text-sm font-normal uppercase hover:bg-gray-400 hover:text-black">
+              Back to homepage
             </button>
           </Link>
         </div>
@@ -27,40 +30,113 @@ export const ProductDetails = () => {
     );
   }
   return (
-    <div className="bg-[#F5F5F5] ">
-      <div className="flex p-4 gap-2">
-        <Link to="/" className="text-sm flex items-center">
-          Home <ChevronRightIcon className="w-3" />
-        </Link>
-        <Link to="/products" className="text-sm flex items-center">
-          Products <ChevronRightIcon className="w-3" />
-        </Link>
-        <Link
-          to={`/${product.category}`}
-          className="text-sm flex items-center capitalize"
-        >
-          {product.category}
+    <div>
+      <section class="text-gray-700 bg-gray-300 body-font overflow-hidden">
+        <div className="flex items-center gap-1 px-8 pt-8 text-xs font-semibold">
+          <Link to="/">Home</Link>
           <ChevronRightIcon className="w-3" />
-        </Link>
-        <p className="text-sm">{product.name}</p>
-      </div>
-      <div className="min-h-screen">
-        <div>
-          <img src={product.imgUrl} alt={product.name} />
-
-          <div>
-            <span className="flex items-center justify-between">
-              <h2 className="text-xl font-medium"> {product.name}</h2>
-              <h2 className="font-bold text-lg py-4"> ${product.price}.00</h2>
-            </span>
-            <p className="text-sm font-light w-full">{product.desc} </p>
-            <button className="flex gap-4 justify-center rounded-md bg-black mt-4 p-3 text-md font-medium w-full text-white">
-              <ShoppingBagIcon className="w-5 text-white" />
-              Add to cart
-            </button>
+          <Link to="/products">Products</Link>
+          <ChevronRightIcon className="w-3" />
+          {product.name}
+        </div>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <img
+              alt={product.name}
+              class="lg:w-1/2 w-full 320:w-[1/2] md:h-auto h-[22rem] object-cover object-center rounded"
+              src={product.imgUrl}
+            />
+            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2 class="text-sm title-font text-gray-500 tracking-widest">
+                PRODUCT NAME
+              </h2>
+              <h1 class="text-black text-3xl title-font font-medium mb-1">
+                {product.name}
+              </h1>
+              <div class="flex my-4">
+                <span class="flex items-center">
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 text-black"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 text-black"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 text-black"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 text-black"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 text-black"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                </span>
+              </div>
+              <p class="leading-relaxed">
+                Fam locavore custom woodshop credenza. Mid-century mixtape
+                vibes, turmeric throw pillows, sriracha red ottoman, modular
+                taximy shelving, chia-seed finish coffee tables, microdosing
+                accent lamps, tilde-shaped DIY bookshelves. XOXO fam indxgo
+                velvet sectionals, juiceramps lounge chairs, cornhole game
+                tables, raw denim cushions, forage woodgrain credenza brooklyn.
+              </p>
+              <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"></div>
+              <div class="flex">
+                <span class="title-font font-medium text-2xl text-black">
+                  $ {product.price}
+                </span>
+                <button class="flex ml-auto items-center gap-2 text-white bg-gray-700 border-0 py-2 px-6 320:px-4 focus:outline-none hover:bg-gray-600 rounded">
+                  Add to cart
+                  <ShoppingBagIcon className="w-5" />
+                </button>
+                <button class="rounded-full w-10 h-10 bg-gray-500 p-0 border-0 inline-flex items-center justify-center text-white ml-4">
+                  <HeartIcon className="w-5" />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

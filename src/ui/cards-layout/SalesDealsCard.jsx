@@ -26,7 +26,9 @@ export const SalesDealsCard = ({ salesDealsList }) => {
   return (
     <div>
       <div className="flex justify-between items-center z-10  ">
-        <h1 className="px-8 my-8 text-4xl font-bold tracking-tight">Sales Deals</h1>
+        <h1 className="px-4 md:px-8 my-8 text-2xl md:text-4xl font-bold tracking-tight">
+          Sales Deals
+        </h1>
         <p className="flex items-center justify-center text-lg font-semibold cursor-pointer pr-8">
           Show More <ArrowRightIcon className="w-6 h-3" />
         </p>

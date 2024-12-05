@@ -1,6 +1,6 @@
 import storage from "../../data/products.json";
 import filter from "../../assets/filter.svg";
-import { StorageLayout } from "./../../ui/product-layout/StorageLayout";
+import { StorageLayout } from "../../ui/product-layout/StorageLayout";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 export const Storage = () => {

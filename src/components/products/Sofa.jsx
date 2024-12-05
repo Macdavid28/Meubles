@@ -2,7 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import sofa from "../../data/products.json";
-import { SofaLayout } from "./../../ui/product-layout/SofaLayout";
+import { SofaLayout } from "../../ui/product-layout/SofaLayout";
 
 export const Sofa = () => {
   return (

@@ -99,7 +99,6 @@ export const Footer = () => {
               <li className="cursor-pointer">
                 <EnvelopeIcon className="w-6" />
               </li>
-
               <li className="cursor-pointer">
                 <img src={fbIcon} className="h-8 md:h-6" alt="" />
               </li>

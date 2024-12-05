@@ -6,7 +6,8 @@
       "price": 89,
       "imgUrl": "https://cdn-images.article.com/products/SKU3061/2890x1500/image130142.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "green"
     },
 
     {
@@ -15,7 +16,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU17614/2890x1500/image118348.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 349,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "tan"
     },
     {
       "id": 3,
@@ -23,7 +25,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU12860/2890x1500/image123903.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 199,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "white"
     },
     {
       "id": 4,
@@ -31,7 +34,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU11396/2890x1500/image138794.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 299,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "black"
     },
     {
       "id": 5,
@@ -39,7 +43,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU19398/2890x1500/image123415.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 999,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "green"
     },
     {
       "id": 6,
@@ -47,7 +52,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU13132/2890x1500/image126286.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 799,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "tan"
     },
     {
       "id": 7,
@@ -55,7 +61,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU17575/2890x1500/image133705.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 99,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "pink"
     },
     {
       "id": 8,
@@ -63,7 +70,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU2581/2890x1500/image146555.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 599,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "blue"
     },
     {
       "id": 9,
@@ -71,7 +79,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU23420/2890x1500/image129875.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 299,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "blue"
     },
     {
       "id": 10,
@@ -79,7 +88,8 @@
       "imgUrl": "https://cdn-images.article.com/products/SKU11850/2890x1500/image133741.jpg?w=425&q=80&fm=webp&fit=max",
       "price": 250,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "oak"
     },
     {
       "id": 11,
@@ -87,7 +97,8 @@
       "price": 399,
       "imgUrl": "https://cdn-images.article.com/products/SKU23402/2890x1500/image133434.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "ivory"
     },
     {
       "id": 12,
@@ -95,7 +106,8 @@
       "price": 399,
       "imgUrl": "https://cdn-images.article.com/products/SKU20086/2890x1500/image140261.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "chair"
+      "category": "chair",
+      "color": "white"
     },
     {
       "id": 13,
@@ -103,7 +115,8 @@
       "price": 100,
       "imgUrl": "https://cdn-images.article.com/products/SKU11579/2890x1500/image149954.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "gray"
     },
     {
       "id": 14,
@@ -111,7 +124,8 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU11572/2890x1500/image147531.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "brown"
     },
     {
       "id": 15,
@@ -119,7 +133,8 @@
       "price": 1200,
       "imgUrl": "https://cdn-images.article.com/products/SKU15352/2890x1500/image147488.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "brown"
     },
     {
       "id": 16,
@@ -127,7 +142,8 @@
       "price": 1100,
       "imgUrl": "https://cdn-images.article.com/products/SKU12922/2890x1500/image147456.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "brown"
     },
     {
       "id": 17,
@@ -135,7 +151,8 @@
       "price": 899,
       "imgUrl": "https://cdn-images.article.com/products/SKU11576/2890x1500/image151247.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "silver"
     },
     {
       "id": 18,
@@ -143,7 +160,8 @@
       "price": 1050,
       "imgUrl": "https://cdn-images.article.com/products/SKU12862/2890x1500/image147524.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "brown"
     },
     {
       "id": 19,
@@ -151,7 +169,8 @@
       "price": 180,
       "imgUrl": "https://cdn-images.article.com/products/SKU19117/2890x1500/image137380.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "ivory"
     },
     {
       "id": 20,
@@ -159,15 +178,17 @@
       "price": 120,
       "imgUrl": "https://cdn-images.article.com/products/SKU15629/2890x1500/image139778.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "ivory"
     },
     {
       "id": 21,
-      "name": "Lenia Queen Storage Bed ",
+      "name": "Lenia Queen Storage Bed",
       "price": 2100,
       "imgUrl": "https://cdn-images.article.com/products/SKU23411/2890x1500/image138459.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "beds"
+      "category": "beds",
+      "color": "brown"
     },
     {
       "id": 22,
@@ -175,7 +196,8 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU20091/2890x1500/image126203.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "gray"
     },
     {
       "id": 23,
@@ -183,7 +205,8 @@
       "price": 600,
       "imgUrl": "https://cdn-images.article.com/products/SKU13582/2890x1500/image147738.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "brown"
     },
     {
       "id": 24,
@@ -191,7 +214,8 @@
       "price": 800,
       "imgUrl": "https://cdn-images.article.com/products/SKU3325/2890x1500/image147725.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "tan"
     },
     {
       "id": 25,
@@ -199,7 +223,8 @@
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU17987/2890x1500/image147730.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "tan"
     },
     {
       "id": 26,
@@ -207,7 +232,8 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU23389/2890x1500/image139148.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "oak"
     },
     {
       "id": 27,
@@ -215,7 +241,8 @@
       "price": 550,
       "imgUrl": "https://cdn-images.article.com/products/SKU23619/2890x1500/image130551.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "ivory"
     },
     {
       "id": 28,
@@ -223,7 +250,8 @@
       "price": 700,
       "imgUrl": "https://cdn-images.article.com/products/SKU23623/2890x1500/image132325.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "ivory"
     },
     {
       "id": 29,
@@ -231,7 +259,8 @@
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU23382/2890x1500/image130224.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "black"
     },
     {
       "id": 30,
@@ -239,7 +268,8 @@
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU23469/2890x1500/image141708.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "benches"
+      "category": "benches",
+      "color": "ivory"
     },
     {
       "id": 31,
@@ -247,7 +277,8 @@
       "price": 199,
       "imgUrl": "https://cdn-images.article.com/products/SKU16596/2890x1500/image147021.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "brown"
     },
     {
       "id": 32,
@@ -255,7 +286,8 @@
       "price": 246,
       "imgUrl": "https://cdn-images.article.com/products/SKU21550/2890x1500/image130135.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "brown"
     },
     {
       "id": 33,
@@ -263,7 +295,8 @@
       "price": 189,
       "imgUrl": "https://cdn-images.article.com/products/SKU18193/2890x1500/image139862.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "gray"
     },
     {
       "id": 34,
@@ -271,7 +304,8 @@
       "price": 119,
       "imgUrl": "https://cdn-images.article.com/products/SKU23393/2890x1500/image132978.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "oak"
     },
     {
       "id": 35,
@@ -279,7 +313,8 @@
       "price": 129,
       "imgUrl": "https://cdn-images.article.com/products/SKU448/2890x1500/image130677.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "brown"
     },
     {
       "id": 36,
@@ -287,7 +322,8 @@
       "price": 69,
       "imgUrl": "https://cdn-images.article.com/products/SKU3064/2890x1500/image140838.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "orange"
     },
     {
       "id": 37,
@@ -295,7 +331,8 @@
       "price": 149,
       "imgUrl": "https://cdn-images.article.com/products/SKU18528/2890x1500/image133184.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "oak"
     },
     {
       "id": 38,
@@ -303,7 +340,8 @@
       "price": 799,
       "imgUrl": "https://cdn-images.article.com/products/SKU45/2890x1500/image132070.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "brown"
     },
     {
       "id": 39,
@@ -311,7 +349,8 @@
       "price": 1100,
       "imgUrl": "https://cdn-images.article.com/products/SKU15537/2890x1500/image147030.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "dining"
+      "category": "dining",
+      "color": "gray"
     },
     {
       "id": 40,
@@ -319,7 +358,8 @@
       "price": 249,
       "imgUrl": "https://cdn-images.article.com/products/SKU11501/2890x1500/image148025.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "black"
     },
     {
       "id": 41,
@@ -327,7 +367,8 @@
       "price": 179,
       "imgUrl": "https://cdn-images.article.com/products/SKU23603/2890x1500/image128359.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "white"
     },
     {
       "id": 42,
@@ -335,7 +376,8 @@
       "price": 179,
       "imgUrl": "https://cdn-images.article.com/products/SKU17425/2890x1500/image130209.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "white"
     },
     {
       "id": 43,
@@ -343,7 +385,8 @@
       "price": 199,
       "imgUrl": "https://cdn-images.article.com/products/SKU18738/2890x1500/image127407.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "green"
     },
     {
       "id": 44,
@@ -351,7 +394,8 @@
       "price": 189,
       "imgUrl": "https://cdn-images.article.com/products/SKU2367/2890x1500/image122016.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "gold"
     },
     {
       "id": 45,
@@ -359,7 +403,8 @@
       "price": 99,
       "imgUrl": "https://cdn-images.article.com/products/SKU11476/2890x1500/image147989.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "black"
     },
     {
       "id": 46,
@@ -367,7 +412,8 @@
       "price": 159,
       "imgUrl": "https://cdn-images.article.com/products/SKU20018/2890x1500/image135460.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "white"
     },
     {
       "id": 47,
@@ -375,7 +421,8 @@
       "price": 119,
       "imgUrl": "https://cdn-images.article.com/products/SKU18937/2890x1500/image127452.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "white"
     },
     {
       "id": 48,
@@ -383,7 +430,8 @@
       "price": 119,
       "imgUrl": "https://cdn-images.article.com/products/SKU14475/2890x1500/image130024.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "lighting"
+      "category": "lighting",
+      "color": "black"
     },
     {
       "id": 49,
@@ -391,7 +439,8 @@
       "price": 700,
       "imgUrl": "https://cdn-images.article.com/products/SKU22977/2890x1500/image132374.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "white"
     },
     {
       "id": 50,
@@ -399,14 +448,16 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18211/2890x1500/image129902.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "blue"
     },
     {
       "id": 51,
       "name": "Farad Agate Gray Rug 8 x10 ",
       "price": 530,
       "imgUrl": "https://cdn-images.article.com/products/SKU15656/2890x1500/image133066.jpg?w=425&q=80&fm=webp&fit=max",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "gray"
     },
     {
       "id": 52,
@@ -414,14 +465,16 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU13976/2890x1500/image123975.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "blue"
     },
     {
       "id": 53,
       "name": "Vanilla Ivory Rug 5 x 8",
       "price": 300,
       "imgUrl": "https://cdn-images.article.com/products/SKU495B/2890x1500/image132141.jpg?w=425&q=80&fm=webp&fit=max",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "ivory"
     },
     {
       "id": 54,
@@ -429,14 +482,16 @@
       "price": 360,
       "imgUrl": "https://cdn-images.article.com/products/SKU12181/2890x1500/image134644.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "tan"
     },
     {
       "id": 55,
       "name": "Indoor Outdoor Rug 9 x 12",
       "price": 699,
       "imgUrl": "https://cdn-images.article.com/products/SKU24400/2890x1500/image139162.jpg?w=425&q=80&fm=webp&fit=max",
-      "category": "rugs"
+      "category": "rugs",
+      "color": ""
     },
     {
       "id": 56,
@@ -444,7 +499,8 @@
       "price": 800,
       "imgUrl": "https://cdn-images.article.com/products/SKU23134/2890x1500/image127697.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "silver"
     },
     {
       "id": 57,
@@ -452,7 +508,8 @@
       "price": 800,
       "imgUrl": "https://cdn-images.article.com/products/SKU23267/2890x1500/image127423.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "rugs"
+      "category": "rugs",
+      "color": "ivory"
     },
     {
       "id": 58,
@@ -460,7 +517,8 @@
       "price": 2100,
       "imgUrl": "https://cdn-images.article.com/products/SKU24528/2890x1500/image147568.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "silver"
     },
     {
       "id": 59,
@@ -468,15 +526,17 @@
       "price": 1800,
       "imgUrl": "https://cdn-images.article.com/products/SKU25121/2890x1500/image153657.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "blue"
     },
     {
       "id": 60,
-      "name": "Silver Grey Sofa",
+      "name": "Silver Gray Sofa",
       "price": 1530,
       "imgUrl": "https://cdn-images.article.com/products/SKU24531/2890x1500/image145587.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "gray"
     },
     {
       "id": 61,
@@ -484,7 +544,8 @@
       "price": 1500,
       "imgUrl": "https://cdn-images.article.com/products/SKU24926/2890x1500/image159970.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "tan"
     },
     {
       "id": 62,
@@ -492,7 +553,8 @@
       "price": 2300,
       "imgUrl": "https://cdn-images.article.com/products/SKU338D/2890x1500/image150164.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "blue"
     },
     {
       "id": 63,
@@ -500,7 +562,8 @@
       "price": 1750,
       "imgUrl": "https://cdn-images.article.com/products/SKU24639/2890x1500/image152828.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "blue"
     },
     {
       "id": 64,
@@ -508,7 +571,8 @@
       "price": 1500,
       "imgUrl": "https://cdn-images.article.com/products/SKU15671/2890x1500/image151194.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "ivory"
     },
     {
       "id": 65,
@@ -516,7 +580,8 @@
       "price": 1610,
       "imgUrl": "https://cdn-images.article.com/products/SKU24544/2890x1500/image152204.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "gray"
     },
     {
       "id": 66,
@@ -524,7 +589,8 @@
       "price": 1160,
       "imgUrl": "https://cdn-images.article.com/products/SKU25523/2890x1500/image158458.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "sofa"
+      "category": "sofa",
+      "color": "white"
     },
     {
       "id": 67,
@@ -532,7 +598,8 @@
       "price": 139,
       "imgUrl": "https://cdn-images.article.com/products/SKU16797/2890x1500/image149090.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "oak"
     },
     {
       "id": 68,
@@ -540,7 +607,8 @@
       "price": 110,
       "imgUrl": "https://cdn-images.article.com/products/SKU11558/2890x1500/image148006.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "black"
     },
     {
       "id": 69,
@@ -548,7 +616,8 @@
       "price": 799,
       "imgUrl": "https://cdn-images.article.com/products/SKU19559/2890x1500/image147132.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "oak"
     },
     {
       "id": 70,
@@ -556,7 +625,8 @@
       "price": 699,
       "imgUrl": "https://cdn-images.article.com/products/SKU22229/2890x1500/image122979.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "white"
     },
     {
       "id": 71,
@@ -564,7 +634,8 @@
       "price": 599,
       "imgUrl": "https://cdn-images.article.com/products/SKU3448/2890x1500/image155878.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "white"
     },
     {
       "id": 72,
@@ -572,7 +643,8 @@
       "price": 650,
       "imgUrl": "https://cdn-images.article.com/products/SKU19964/2890x1500/image118614.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "brown"
     },
     {
       "id": 73,
@@ -580,7 +652,8 @@
       "price": 160,
       "imgUrl": "https://cdn-images.article.com/products/SKU17716/2890x1500/image126600.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "ivory"
     },
     {
       "id": 74,
@@ -588,7 +661,8 @@
       "price": 190,
       "imgUrl": "https://cdn-images.article.com/products/SKU23432/2890x1500/image156007.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "oak"
     },
     {
       "id": 75,
@@ -596,7 +670,8 @@
       "price": 500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18773/2890x1500/image148014.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "storage"
+      "category": "storage",
+      "color": "oak"
     },
     {
       "id": 76,
@@ -604,7 +679,8 @@
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU19549/2890x1500/image131779.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "oak"
     },
     {
       "id": 77,
@@ -612,7 +688,8 @@
       "price": 150,
       "imgUrl": "https://cdn-images.article.com/products/SKU360/2890x1500/image140750.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "brown"
     },
     {
       "id": 78,
@@ -620,7 +697,8 @@
       "price": 350,
       "imgUrl": "https://cdn-images.article.com/products/SKU13361V1/2890x1500/image128091.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "white"
     },
     {
       "id": 79,
@@ -628,7 +706,8 @@
       "price": 450,
       "imgUrl": "https://cdn-images.article.com/products/SKU23365/2890x1500/image145147.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "oak"
     },
     {
       "id": 80,
@@ -636,7 +715,8 @@
       "price": 200,
       "imgUrl": "https://cdn-images.article.com/products/SKU19544/2890x1500/image136135.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "black"
     },
     {
       "id": 81,
@@ -644,7 +724,8 @@
       "price": 700,
       "imgUrl": "https://cdn-images.article.com/products/SKU24273/2890x1500/image146974.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "oak"
     },
     {
       "id": 82,
@@ -652,7 +733,8 @@
       "price": 350,
       "imgUrl": "https://cdn-images.article.com/products/SKU19541/2890x1500/image125145.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "tan"
     },
     {
       "id": 83,
@@ -660,7 +742,8 @@
       "price": 440,
       "imgUrl": "https://cdn-images.article.com/products/SKU19377/2890x1500/image128673.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "brown"
     },
     {
       "id": 84,
@@ -668,7 +751,8 @@
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU18106/2890x1500/image134998.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
-      "category": "table"
+      "category": "table",
+      "color": "oak"
     }
   ]
 }

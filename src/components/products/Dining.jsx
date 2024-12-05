@@ -2,7 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import dining from "../../data/products.json";
-import { DiningLayout } from "./../../ui/product-layout/DiningLayout";
+import { DiningLayout } from "../../ui/product-layout/DiningLayout";
 export const Dining = () => {
   return (
     <div className="mt-8 font-cinzel">

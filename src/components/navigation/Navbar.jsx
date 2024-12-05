@@ -6,7 +6,6 @@ import {
   XMarkIcon,
   ShoppingBagIcon,
   HeartIcon,
-  MagnifyingGlassIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import ProductDropdown from "../dropdown/ProductDropdown";
@@ -15,8 +14,8 @@ import { auth } from "../../config/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { CartPreview } from "../../pages/cart/CartPreview";
 import { cartActions } from "../../redux/slices/cart-slice";
-import { WishlistPreview } from "../../pages/cart/WishlistPreview";
-import { wishlistActions } from "../../redux/slices/wishlist-slice";
+// import { WishlistPreview } from "../../pages/cart/WishlistPreview";
+// import { wishlistActions } from "../../redux/slices/wishlist-slice";
 
 const Navbar = () => {
   const dispatch = useDispatch();
@@ -45,9 +44,9 @@ const Navbar = () => {
   const toggleCartPreview = () => {
     dispatch(cartActions.showCart());
   };
-  const toggleWishlistPreview = () => {
-    dispatch(wishlistActions.showWishlist());
-  };
+  // const toggleWishlistPreview = () => {
+  //   dispatch(wishlistActions.showWishlist());
+  // };
   return (
     <div className="relative z-50 ">
       <div className="relative bg-gray-400 p-4 lg:p-8 flex items-center justify-between h-14 z-50 shadow-md md:shadow-none">
@@ -113,7 +112,7 @@ const Navbar = () => {
             <HeartIcon
               className="w-6 text-black hover:text-white text-xl"
               title="Wishlist"
-              onClick={toggleWishlistPreview}
+              // onClick={toggleWishlistPreview}
             />
 
             <ShoppingBagIcon
@@ -223,10 +222,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {/* Search Results */}
       {/* Cart Preview */}
       <CartPreview />
-      <WishlistPreview />
+      {/* <WishlistPreview /> */}
     </div>
   );
 };

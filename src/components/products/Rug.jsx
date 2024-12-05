@@ -2,7 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import rugs from "../../data/products.json";
-import { RugLayout} from "./../../ui/product-layout/RugLayout";
+import { RugLayout} from "../../ui/product-layout/RugLayout";
 export const Rug = () => {
   return (
     <div className="mt-8 font-cinzel">

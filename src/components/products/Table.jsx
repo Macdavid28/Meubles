@@ -2,7 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import tables from "../../data/products.json";
-import { TableLayout } from "./../../ui/product-layout/TableLayout";
+import { TableLayout } from "../../ui/product-layout/TableLayout";
 export const Table = () => {
   return (
     <div className="mt-8 font-cinzel">

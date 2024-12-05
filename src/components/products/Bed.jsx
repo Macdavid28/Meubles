@@ -2,7 +2,7 @@ import beds from "../../data/products.json";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
-import {BedLayout} from "./../../ui/product-layout/BedLayout";
+import {BedLayout} from "../../ui/product-layout/BedLayout";
 export const Bed = () => {
   return (
     <div className="mt-8 font-cinzel">

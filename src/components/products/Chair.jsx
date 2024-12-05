@@ -1,5 +1,5 @@
 import chair from "../../data/products.json";
-import { ChairLayout } from "./../../ui/product-layout/ChairLayout";
+import { ChairLayout } from "../../ui/product-layout/ChairLayout";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";

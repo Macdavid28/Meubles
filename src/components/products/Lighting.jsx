@@ -2,7 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import filter from "../../assets/filter.svg";
 import lighting from "../../data/products.json";
-import { LightingLayout } from "./../../ui/product-layout/LightingLayout";
+import { LightingLayout } from "../../ui/product-layout/LightingLayout";
 export const Lighting = () => {
   return (
     <div className="mt-8 font-cinzel">
