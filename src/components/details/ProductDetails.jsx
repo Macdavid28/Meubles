@@ -6,8 +6,10 @@ import {
   HeartIcon,
   ChevronRightIcon,
 } from "@heroicons/react/24/outline";
-
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../redux/slices/cart-slice";
 export const ProductDetails = () => {
+  const dispatch = useDispatch();
   const { name } = useParams();
   const productsList = products.products;
   const product = productsList.find(
@@ -125,7 +127,19 @@ export const ProductDetails = () => {
                 <span class="title-font font-medium text-2xl text-black">
                   $ {product.price}
                 </span>
-                <button class="flex ml-auto items-center gap-2 text-white bg-gray-700 border-0 py-2 px-6 320:px-4 focus:outline-none hover:bg-gray-600 rounded">
+                <button
+                  class="flex ml-auto items-center gap-2 text-white bg-gray-700 border-0 py-2 px-6 320:px-4 focus:outline-none hover:bg-gray-600 rounded"
+                  onClick={() => {
+                    dispatch(
+                      cartActions.addToCart({
+                        id: product.id,
+                        name: product.name,
+                        imgUrl: product.imgUrl,
+                        price: product.price,
+                      })
+                    );
+                  }}
+                >
                   Add to cart
                   <ShoppingBagIcon className="w-5" />
                 </button>

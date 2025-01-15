@@ -27,6 +27,7 @@ export const CartLayout = ({
       autoClose: 500,
       pauseOnFocusLoss: false,
       pauseOnHover: false,
+      hideProgressBar: true,
     });
   };
 

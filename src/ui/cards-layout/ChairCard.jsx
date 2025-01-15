@@ -79,9 +79,9 @@ export const ChairCard = () => {
                       // )}
                     >
                       {/* {itemExistsInWishlist ? ( */}
-                        <HeartIcon className="w-5" />
+                      <HeartIcon className="w-5" />
                       {/* ) : ( */}
-                        <HeartIconSolid className="w-5" />
+                      <HeartIconSolid className="w-5" />
                       {/* )} */}
                     </button>
                   </span>

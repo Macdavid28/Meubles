@@ -1,7 +1,19 @@
-import { Link } from "react-router-dom";
 import sofa from "../../data/products.json";
+import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { cartActions } from "../../redux/slices/cart-slice";
+import { toast } from "react-toastify";
 import { ShoppingBagIcon, HeartIcon } from "@heroicons/react/24/outline";
 export const SofaCard = () => {
+  const dispatch = useDispatch();
+  const notification = () => {
+    toast.success("Added to cart", {
+      autoClose: 500,
+      hideProgressBar: true,
+      pauseOnFocusLoss: false,
+      pauseOnHover: false,
+    });
+  };
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-[90rem] lg:px-8">
@@ -12,7 +24,7 @@ export const SofaCard = () => {
             .map((sofa) => (
               <div
                 key={sofa.id}
-                className="group relative border border-gray-500 rounded-md p-4"
+                className="border-white border-8 rounded-md shadow-md"
               >
                 <div>
                   <img alt={sofa.name} src={sofa.imgUrl} />
@@ -31,7 +43,20 @@ export const SofaCard = () => {
                   </p>
                 </div>
                 <span className="flex items-center gap-2">
-                  <button className="bg-gray-800 text-center w-[85%] justify-center py-2 text-white my-2 rounded-md flex items-center gap-4">
+                  <button
+                    className="bg-black text-center w-[85%] justify-center py-2 text-white my-2 rounded-md flex items-center gap-4"
+                    onClick={() => {
+                      dispatch(
+                        cartActions.addToCart({
+                          id: sofa.id,
+                          name: sofa.name,
+                          price: sofa.price,
+                          imgUrl: sofa.imgUrl,
+                        }),
+                        notification()
+                      );
+                    }}
+                  >
                     Add to cart
                     <ShoppingBagIcon className="w-5" />
                   </button>

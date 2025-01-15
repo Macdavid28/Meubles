@@ -191,6 +191,15 @@
       "color": "brown"
     },
     {
+      "id": 86,
+      "name": "Cigar King Storage Bed",
+      "price": 1700,
+      "imgUrl": "https://cdn-images.article.com/products/SKU19094/2890x1500/image138321.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "beds",
+      "color": "white"
+    },
+    {
       "id": 22,
       "name": "Gray Walnut Bench",
       "price": 500,
@@ -270,6 +279,15 @@
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
       "color": "ivory"
+    },
+    {
+      "id": 85,
+      "name": "Oak and Rain Cloud Gray Bench",
+      "price": 700,
+      "imgUrl": "https://cdn-images.article.com/products/SKU17403/2890x1500/image147759.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "benches",
+      "color": "oak"
     },
     {
       "id": 31,
@@ -434,6 +452,15 @@
       "color": "black"
     },
     {
+      "id": 90,
+      "name": "Coy Chandelier",
+      "price": 399,
+      "imgUrl": "https://cdn-images.article.com/products/SKU24952/2890x1500/image156959.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "lighting",
+      "color": "black"
+    },
+    {
       "id": 49,
       "name": "Arch Cream Rug 8 x 10",
       "price": 700,
@@ -507,6 +534,15 @@
       "name": "Performance Rug 8 x 10",
       "price": 800,
       "imgUrl": "https://cdn-images.article.com/products/SKU23267/2890x1500/image127423.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "rugs",
+      "color": "ivory"
+    },
+    {
+      "id": 90,
+      "name": "Performance Rug 8 x 10",
+      "price": 800,
+      "imgUrl": "https://cdn-images.article.com/products/SKU20029/2890x1500/image130815.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
       "color": "ivory"
@@ -593,6 +629,15 @@
       "color": "white"
     },
     {
+      "id": 88,
+      "name": "100' Left Sectional Sofa",
+      "price": 2200,
+      "imgUrl": "https://cdn-images.article.com/products/SKU24762/2890x1500/image157666.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "sofa",
+      "color": "orange"
+    },
+    {
       "id": 67,
       "name": "6 Drawer Double Dresser",
       "price": 139,
@@ -674,6 +719,15 @@
       "color": "oak"
     },
     {
+      "id": 87,
+      "name": "Shelf And Coat Rack",
+      "price": 150,
+      "imgUrl": "https://cdn-images.article.com/products/SKU25508/2890x1500/image171627.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "storage",
+      "color": "brown"
+    },
+    {
       "id": 76,
       "name": "Oak Coffee Table",
       "price": 400,
@@ -750,6 +804,15 @@
       "name": "Baarlo Side Oak Table",
       "price": 400,
       "imgUrl": "https://cdn-images.article.com/products/SKU18106/2890x1500/image134998.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "table",
+      "color": "oak"
+    },
+    {
+      "id": 89,
+      "name": "White Oak Desk",
+      "price": 900,
+      "imgUrl": "https://cdn-images.article.com/products/SKU23368/2890x1500/image122198.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
       "color": "oak"
