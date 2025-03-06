@@ -59,7 +59,7 @@ export const Contact = () => {
   };
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-linear">
-      <div className="flex flex-col md:flex-row md:gap-24 shadow-md rounded-md p-12 bg-addLinear md:bg-secondLinear">
+      <div className="flex flex-col md:flex-row md:gap-24 md:m-10 shadow-md rounded-md p-12 bg-addLinear md:bg-secondLinear">
         <div>
           <h2 className="text-2xl font-normal pb-5 mx-2">Send Us A Message</h2>
           <form action="" onSubmit={handleSubmit(sendMessage)} ref={form}>

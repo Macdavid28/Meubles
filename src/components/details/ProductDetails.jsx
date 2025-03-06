@@ -1,13 +1,10 @@
 // import { HomeModernIcon } from "@heroicons/react/24/solid";
 import products from "../../data/products.json";
 import { useParams, Link } from "react-router-dom";
-import {
-  ShoppingBagIcon,
-  HeartIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/24/outline";
+import { ShoppingBagIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../redux/slices/cart-slice";
+import { toast } from "react-toastify";
 export const ProductDetails = () => {
   const dispatch = useDispatch();
   const { name } = useParams();
@@ -31,9 +28,18 @@ export const ProductDetails = () => {
       </div>
     );
   }
+
+  const notification = () => {
+    toast.success("Added to cart", {
+      autoClose: 500,
+      pauseOnHover: false,
+      pauseOnFocusLoss: false,
+      hideProgressBar: true,
+    });
+  };
   return (
     <div>
-      <section class="text-gray-700 bg-gray-300 body-font overflow-hidden">
+      <section class="text-gray-700 body-font overflow-hidden">
         <div className="flex items-center gap-1 px-8 pt-8 text-xs font-semibold">
           <Link to="/">Home</Link>
           <ChevronRightIcon className="w-3" />
@@ -45,7 +51,7 @@ export const ProductDetails = () => {
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt={product.name}
-              class="lg:w-1/2 w-full 320:w-[1/2] md:h-auto h-[22rem] object-cover object-center rounded"
+              class="lg:w-1/2 w-full 320:w-[1/2] md:h-auto 768:h-auto h-[22rem] object-cover object-center rounded"
               src={product.imgUrl}
             />
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
@@ -125,7 +131,11 @@ export const ProductDetails = () => {
               <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"></div>
               <div class="flex">
                 <span class="title-font font-medium text-2xl text-black">
-                  $ {product.price}
+                  ₦{" "}
+                  {product.price
+                    .toLocaleString()
+                    .toLocaleString()
+                    .toLocaleString()}
                 </span>
                 <button
                   class="flex ml-auto items-center gap-2 text-white bg-gray-700 border-0 py-2 px-6 320:px-4 focus:outline-none hover:bg-gray-600 rounded"
@@ -135,16 +145,14 @@ export const ProductDetails = () => {
                         id: product.id,
                         name: product.name,
                         imgUrl: product.imgUrl,
-                        price: product.price,
+                        price: product.price.toLocaleString().toLocaleString(),
                       })
                     );
+                    notification();
                   }}
                 >
                   Add to cart
                   <ShoppingBagIcon className="w-5" />
-                </button>
-                <button class="rounded-full w-10 h-10 bg-gray-500 p-0 border-0 inline-flex items-center justify-center text-white ml-4">
-                  <HeartIcon className="w-5" />
                 </button>
               </div>
             </div>

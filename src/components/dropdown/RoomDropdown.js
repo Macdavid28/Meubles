@@ -53,7 +53,7 @@ export const RoomDropdown = ({ title, items, isMobile }) => {
         >
           <ul className="lg:p-4">
             {items.map((item, index) => (
-              <Link to={item.link} key={index}>
+              <Link to={item.link} key={index} onClick={toggleDropdown}>
                 <li className="py-2 lg:p-2 text-black border-b border-b-gray-400 lg:hover:border-l-4 text-sm hover:border-l-gray-400">
                   {item.label}
                 </li>

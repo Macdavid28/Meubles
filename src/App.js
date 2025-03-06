@@ -14,7 +14,6 @@ import TopScrollButton from "./components/misc/TopScrollButton";
 import Navbar from "./components/navigation/Navbar";
 import Home from "./pages/home/Home";
 import { Cart } from "./pages/cart/Cart";
-import { Account } from "./pages/account";
 import { Contact } from "./pages/Contact";
 import { About } from "./pages/about/About";
 import { SignIn } from "./pages/auth/SignIn";
@@ -31,10 +30,12 @@ import { ProductSeven } from "./components/products/all-products/ProductSeven";
 import { ProductDetails } from "./components/details/ProductDetails";
 // Rooms
 import { LivingRoom } from "./components/rooms/LivingRoom";
-import { BedRoom } from "./components/rooms/BedRoom";
+import { Bedroom } from "./components/rooms/Bedroom";
 import { DiningRoom } from "./components/rooms/DiningRoom";
+import { RoomDetails } from "./components/details/RoomDetails";
 import { Bulletin } from "./pages/Bulletin";
 import { Search } from "./pages/Search";
+import { Checkout } from "./pages/Checkout";
 function App() {
   return (
     <div className="App">
@@ -47,8 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<SignIn />} />
-          <Route path="/sign-up" element={<SignUp />} />
-          <Route path="/account" element={<Account />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bulletin" element={<Bulletin />} />
           <Route path="/search" element={<Search />} />
@@ -72,12 +72,14 @@ function App() {
           <Route path="/table" element={<Table />} />
           {/* Product Details Route */}
           <Route path="/products/:name" element={<ProductDetails />} /> */
+          <Route path="/rooms/:name" element={<RoomDetails />} />
           {/* Rooms Route */}
           <Route path="/living-room" element={<LivingRoom />} />
-          <Route path="/bedroom" element={<BedRoom />} />
+          <Route path="/bedroom" element={<Bedroom />} />
           <Route path="/dining-room" element={<DiningRoom />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
         <Footer />
       </Router>

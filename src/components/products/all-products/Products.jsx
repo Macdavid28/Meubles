@@ -4,7 +4,6 @@ import {
   ChevronRightIcon,
   FunnelIcon,
   ShoppingBagIcon,
-  HeartIcon,
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -34,12 +33,12 @@ const pricing = [
     id: "pricing",
     name: "Pricing",
     options: [
-      { value: "0-100", label: "0-100", checked: false },
-      { value: "101-200", label: "101-200", checked: false },
-      { value: "201-300", label: "201-300", checked: false },
-      { value: "301-400", label: "301-400", checked: false },
-      { value: "401-500", label: "401-500", checked: false },
-      { value: "500-10000", label: "500 +", checked: false },
+      { value: "0-100000", label: "0 - 100,000", checked: false },
+      { value: "151000-200000", label: "151,000 - 200,000", checked: false },
+      { value: "201000-300000", label: "201,000 - 300,000", checked: false },
+      { value: "301000-400000", label: "301,000 - 400,000", checked: false },
+      { value: "401000-500000", label: "401,000 - 500,000", checked: false },
+      { value: "500000-1000000", label: "500,000 +", checked: false },
     ],
   },
 ];
@@ -104,7 +103,7 @@ export const Products = () => {
         !selectedFilters.pricing.length ||
         selectedFilters.pricing.some((range) => {
           const [min, max] = range.split("-").map(Number);
-          return prod.price >= min && (max ? prod.price <= max : true); // Handle "500+"
+          return prod.price.toLocaleString().toLocaleString() >= min && (max ? prod.price.toLocaleString().toLocaleString() <= max : true); // Handle "500+"
         });
 
       const matchesColor =
@@ -212,7 +211,6 @@ export const Products = () => {
                 className="relative border border-white rounded-md"
                 key={product.id}
               >
-                <HeartIcon className="absolute w-8 right-2 top-3 cursor-pointer hover:bg-gray-200 rounded-full p-1" />
                 <div className="border border-white rounded-md shadow-md shadow-black/35 p-4">
                   <Link to={`/products/${product.name}`}>
                     <img src={product.imgUrl} alt={product.name} />
@@ -222,14 +220,14 @@ export const Products = () => {
                       {product.name}
                     </h1>
                     <ShoppingBagIcon
-                      className="w-5"
+                      className="w-6 cursor-pointer"
                       onClick={() => {
                         dispatch(
                           cartActions.addToCart({
                             id: product.id,
                             name: product.name,
                             imgUrl: product.imgUrl,
-                            price: product.price,
+                            price: product.price.toLocaleString(),
                           }),
                           notification()
                         );
@@ -237,7 +235,7 @@ export const Products = () => {
                     />
                   </span>
                   <h3 className="text-xs lg:text-lg text-gray-500 font-normal">
-                    $ {product.price}
+                    ₦ {product.price.toLocaleString()}
                   </h3>
                 </div>
               </div>

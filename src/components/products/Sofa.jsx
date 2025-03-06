@@ -4,7 +4,6 @@ import {
   ChevronRightIcon,
   FunnelIcon,
   ShoppingBagIcon,
-  HeartIcon,
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -78,7 +77,10 @@ export const Sofa = () => {
         !selectedFilters.pricing.length ||
         selectedFilters.pricing.some((range) => {
           const [min, max] = range.split("-").map(Number);
-          return prod.price >= min && (max ? prod.price <= max : true); // Handle "500+"
+          return (
+            prod.price.toLocaleString().toLocaleString() >= min &&
+            (max ? prod.price.toLocaleString().toLocaleString() <= max : true)
+          ); // Handle "500+"
         });
 
       const matchesColor =
@@ -166,7 +168,6 @@ export const Sofa = () => {
                 className="relative border border-white rounded-md"
                 key={product.id}
               >
-                <HeartIcon className="absolute w-8 right-2 top-3 cursor-pointer hover:bg-gray-200 rounded-full p-1" />
                 <div className="border border-white rounded-md shadow-md shadow-black/35 p-4">
                   <Link to={`/products/${product.name}`}>
                     <img src={product.imgUrl} alt={product.name} />
@@ -176,14 +177,16 @@ export const Sofa = () => {
                       {product.name}
                     </h1>
                     <ShoppingBagIcon
-                      className="w-5"
+                      className="w-6 cursor-pointer"
                       onClick={() => {
                         dispatch(
                           cartActions.addToCart({
                             id: product.id,
                             name: product.name,
                             imgUrl: product.imgUrl,
-                            price: product.price,
+                            price: product.price
+                              .toLocaleString()
+                              .toLocaleString(),
                           }),
                           notification()
                         );
@@ -191,7 +194,11 @@ export const Sofa = () => {
                     />
                   </span>
                   <h3 className="text-xs lg:text-lg text-gray-500 font-normal">
-                    $ {product.price}
+                    ₦{" "}
+                    {product.price
+                      .toLocaleString()
+                      .toLocaleString()
+                      .toLocaleString()}
                   </h3>
                 </div>
               </div>

@@ -6,7 +6,6 @@ import {
   // MinusIcon,
   FunnelIcon,
   ShoppingBagIcon,
-  HeartIcon,
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -96,7 +95,7 @@ export const Productss = () => {
         !selectedFilters.pricing.length ||
         selectedFilters.pricing.some((range) => {
           const [min, max] = range.split("-").map(Number);
-          return prod.price >= min && (!max || prod.price <= max);
+          return prod.price.toLocaleString().toLocaleString() >= min && (!max || prod.price.toLocaleString().toLocaleString() <= max);
         });
 
       const matchesColor =
@@ -205,7 +204,6 @@ export const Productss = () => {
               className="relative border border-white rounded-md"
               key={product.id}
             >
-              <HeartIcon className="absolute w-8 right-2 top-3 cursor-pointer hover:bg-gray-200 rounded-full p-1" />
               <div className="border border-white rounded-md shadow-md shadow-black/35 p-4">
                 <Link to={`/products/${product.name}`}>
                   <img src={product.imgUrl} alt={product.name} />
@@ -217,7 +215,7 @@ export const Productss = () => {
                   <ShoppingBagIcon className="w-5" />
                 </span>
                 <h3 className="text-xs lg:text-lg text-gray-500 font-normal">
-                  $ {product.price}
+                  ₦ {product.price.toLocaleString().toLocaleString().toLocaleString()}
                 </h3>
               </div>
             </div>
@@ -304,7 +302,7 @@ export const Productss = () => {
 //                         id=""
 //                         className="h-3 w-3 md:h-4 md:w-4 border-gray-300 text-gray-500 focus:ring-gray-500"
 //                       />
-//                       <label className="text-xs">$ {option.label} </label>
+//                       <label className="text-xs">₦  {option.label} </label>
 //                     </div>
 //                   ))}
 //                 </div>
@@ -335,7 +333,7 @@ export const Productss = () => {
 //         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 my-4 sm:mx-14 md:mx-14 px-8">
 //           {randomItem.slice(0, 12).map((product) => (
 //             <div className="relative border border-white rounded-md">
-//               <HeartIcon className="absolute w-8 right-2 top-3 cursor-pointer hover:bg-gray-200 rounded-full p-1" />
+//
 //               <div className="border border-white rounded-md shadow-md shadow-black/35 p-4">
 //                 <Link to={`/products/${product.name}`}>
 //                   <img src={product.imgUrl} alt="" />
@@ -347,7 +345,7 @@ export const Productss = () => {
 //                   <ShoppingBagIcon className="w-5" />
 //                 </span>
 //                 <h3 className="text-xs lg:text-lg text-gray-500 font-normal ">
-//                   $ {product.price}
+//                   ₦  {product.price.toLocaleString().toLocaleString()}
 //                 </h3>
 //                 {/* <span className="flex gap-2 md:gap-4 my-4 items-center">
 //                   <button className="rounded-md bg-black p-2 lg:p-3 text-xs lg:text-lg font-normal text-white flex items-center justify-center gap-4 w-full">

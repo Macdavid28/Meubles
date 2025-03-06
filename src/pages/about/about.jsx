@@ -34,25 +34,28 @@ export const About = () => {
             className="w-full h-[400px]"
           />
         )}
-        <h1 className="text-xl md:text-4xl text-gray-800 md:text-white shadow-md font-bold absolute top-32 md:top-20 md:left-96 block text-center w-80%  md:w-[42%]">
+        {mark && (
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        )}
+        <h1 className="text-xl md:text-4xl text-white shadow-md font-bold absolute top-32 md:top-20 md:left-96 block text-center w-80%  md:w-[42%]">
           STYLE AND QUALITY, EXQUISITE AND HIGH STANDARD
         </h1>
       </div>
       <div className="grid grid-cols-2 justify-center  md:flex md:justify-evenly items-center my-20">
         <span className="py-4">
-          <h1 className="text-4xl font-light text-center">100,000+</h1>
+          <h1 className="text-4xl font-bold text-center">100k+</h1>
           <p className="text-xl text-center">Furniture </p>
         </span>
         <span className="py-4">
-          <h1 className="text-4xl font-light text-center">150+</h1>
+          <h1 className="text-4xl font-bold text-center">150+</h1>
           <p className="text-xl text-center">Branches</p>
         </span>
         <span className="py-4">
-          <h1 className="text-4xl font-light text-center">10,000+</h1>
+          <h1 className="text-4xl font-bold text-center">10k+</h1>
           <p className="text-xl text-center">Workers</p>
         </span>
         <span className="py-4">
-          <h1 className="text-4xl font-light text-center">5,000+</h1>
+          <h1 className="text-4xl font-bold text-center">5k+</h1>
           <p className="text-xl text-center">Customers</p>
         </span>
       </div>

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Aloe Dining Chair",
-      "price": 89,
+      "price": 133500,
       "imgUrl": "https://cdn-images.article.com/products/SKU3061/2890x1500/image130142.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
@@ -14,7 +14,7 @@
       "id": 2,
       "name": "Tan Swivel Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU17614/2890x1500/image118348.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 349,
+      "price": 523500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "tan"
@@ -23,7 +23,7 @@
       "id": 3,
       "name": "Indoor Lounge Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU12860/2890x1500/image123903.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 199,
+      "price": 298500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "white"
@@ -32,7 +32,7 @@
       "id": 4,
       "name": "Black Dining Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU11396/2890x1500/image138794.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 299,
+      "price": 448500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "black"
@@ -41,7 +41,7 @@
       "id": 5,
       "name": "Green Lounge Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU19398/2890x1500/image123415.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 999,
+      "price": 1498500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "green"
@@ -50,7 +50,7 @@
       "id": 6,
       "name": "Tan Walnut Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU13132/2890x1500/image126286.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 799,
+      "price": 1198500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "tan"
@@ -59,7 +59,7 @@
       "id": 7,
       "name": "Pink Counter Stool",
       "imgUrl": "https://cdn-images.article.com/products/SKU17575/2890x1500/image133705.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 99,
+      "price": 148500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "pink"
@@ -68,7 +68,7 @@
       "id": 8,
       "name": "Blueberry Arm Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU2581/2890x1500/image146555.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 599,
+      "price": 898500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "blue"
@@ -77,16 +77,16 @@
       "id": 9,
       "name": "Aqua Office Chair",
       "imgUrl": "https://cdn-images.article.com/products/SKU23420/2890x1500/image129875.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 299,
+      "price": 448500,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "blue"
     },
     {
       "id": 10,
-      "name": "Light Oak Counter Stool",
+      "name": "Light Oak Stool",
       "imgUrl": "https://cdn-images.article.com/products/SKU11850/2890x1500/image133741.jpg?w=425&q=80&fm=webp&fit=max",
-      "price": 250,
+      "price": 375000,
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
       "color": "oak"
@@ -94,7 +94,7 @@
     {
       "id": 11,
       "name": "Hess Sand Ivory Chair",
-      "price": 399,
+      "price": 598500,
       "imgUrl": "https://cdn-images.article.com/products/SKU23402/2890x1500/image133434.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
@@ -102,8 +102,8 @@
     },
     {
       "id": 12,
-      "name": "Wool Bouclé Office Chair",
-      "price": 399,
+      "name": "Bouclé Office Chair",
+      "price": 598500,
       "imgUrl": "https://cdn-images.article.com/products/SKU20086/2890x1500/image140261.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "chair",
@@ -112,7 +112,7 @@
     {
       "id": 13,
       "name": "Gray King Bed",
-      "price": 100,
+      "price": 150000,
       "imgUrl": "https://cdn-images.article.com/products/SKU11579/2890x1500/image149954.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -121,7 +121,7 @@
     {
       "id": 14,
       "name": "Walnut King Bed Frame",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU11572/2890x1500/image147531.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -130,7 +130,7 @@
     {
       "id": 15,
       "name": "Lenia Panel King Bed ",
-      "price": 1200,
+      "price": 1800000,
       "imgUrl": "https://cdn-images.article.com/products/SKU15352/2890x1500/image147488.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -138,8 +138,8 @@
     },
     {
       "id": 16,
-      "name": "Lenia Walnut Queen Bed",
-      "price": 1100,
+      "name": "Lenia Queen Bed",
+      "price": 1650000,
       "imgUrl": "https://cdn-images.article.com/products/SKU12922/2890x1500/image147456.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -148,7 +148,7 @@
     {
       "id": 17,
       "name": "Tessu Clay Queen Bed",
-      "price": 899,
+      "price": 1348500,
       "imgUrl": "https://cdn-images.article.com/products/SKU11576/2890x1500/image151247.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -156,8 +156,8 @@
     },
     {
       "id": 18,
-      "name": "Queen Bed & Nightstands",
-      "price": 1050,
+      "name": "Queen Bed & Stand",
+      "price": 1575000,
       "imgUrl": "https://cdn-images.article.com/products/SKU12862/2890x1500/image147524.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -166,7 +166,7 @@
     {
       "id": 19,
       "name": "Ivory King Bed",
-      "price": 180,
+      "price": 270000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19117/2890x1500/image137380.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -174,8 +174,8 @@
     },
     {
       "id": 20,
-      "name": "Sven Birch Ivory King Bed",
-      "price": 120,
+      "name": "Sven Birch King Bed",
+      "price": 180000,
       "imgUrl": "https://cdn-images.article.com/products/SKU15629/2890x1500/image139778.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -184,7 +184,7 @@
     {
       "id": 21,
       "name": "Lenia Queen Storage Bed",
-      "price": 2100,
+      "price": 3150000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23411/2890x1500/image138459.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -193,7 +193,7 @@
     {
       "id": 86,
       "name": "Cigar King Storage Bed",
-      "price": 1700,
+      "price": 2550000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19094/2890x1500/image138321.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "beds",
@@ -202,7 +202,7 @@
     {
       "id": 22,
       "name": "Gray Walnut Bench",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU20091/2890x1500/image126203.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -211,7 +211,7 @@
     {
       "id": 23,
       "name": "Caramel '61' Bench",
-      "price": 600,
+      "price": 900000,
       "imgUrl": "https://cdn-images.article.com/products/SKU13582/2890x1500/image147738.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -220,7 +220,7 @@
     {
       "id": 24,
       "name": "Tan Bench",
-      "price": 800,
+      "price": 1200000,
       "imgUrl": "https://cdn-images.article.com/products/SKU3325/2890x1500/image147725.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -229,7 +229,7 @@
     {
       "id": 25,
       "name": "Tan '43' Bench",
-      "price": 400,
+      "price": 600000,
       "imgUrl": "https://cdn-images.article.com/products/SKU17987/2890x1500/image147730.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -238,7 +238,7 @@
     {
       "id": 26,
       "name": "Smoked Oak Bench",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23389/2890x1500/image139148.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -247,7 +247,7 @@
     {
       "id": 27,
       "name": "Ivory Armless Banquette",
-      "price": 550,
+      "price": 825000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23619/2890x1500/image130551.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -256,7 +256,7 @@
     {
       "id": 28,
       "name": "Ivory Corner Banquette",
-      "price": 700,
+      "price": 1050000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23623/2890x1500/image132325.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -265,7 +265,7 @@
     {
       "id": 29,
       "name": "Black Ash Bench",
-      "price": 400,
+      "price": 600000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23382/2890x1500/image130224.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -274,7 +274,7 @@
     {
       "id": 30,
       "name": "Rolph Sand Ivory Bench",
-      "price": 400,
+      "price": 600000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23469/2890x1500/image141708.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -283,7 +283,7 @@
     {
       "id": 85,
       "name": "Oak and Rain Cloud Gray Bench",
-      "price": 700,
+      "price": 1050000,
       "imgUrl": "https://cdn-images.article.com/products/SKU17403/2890x1500/image147759.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "benches",
@@ -292,7 +292,7 @@
     {
       "id": 31,
       "name": "Brown Dining Set",
-      "price": 199,
+      "price": 298500,
       "imgUrl": "https://cdn-images.article.com/products/SKU16596/2890x1500/image147021.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -301,7 +301,7 @@
     {
       "id": 32,
       "name": "Vintage Brown Dining Set",
-      "price": 246,
+      "price": 369000,
       "imgUrl": "https://cdn-images.article.com/products/SKU21550/2890x1500/image130135.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -310,7 +310,7 @@
     {
       "id": 33,
       "name": "Gray Dining Set",
-      "price": 189,
+      "price": 283500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18193/2890x1500/image139862.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -319,7 +319,7 @@
     {
       "id": 34,
       "name": "White Oak Dining Table",
-      "price": 119,
+      "price": 178500,
       "imgUrl": "https://cdn-images.article.com/products/SKU23393/2890x1500/image132978.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -328,7 +328,7 @@
     {
       "id": 35,
       "name": "Extendable Dining Table",
-      "price": 129,
+      "price": 193500,
       "imgUrl": "https://cdn-images.article.com/products/SKU448/2890x1500/image130677.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -337,7 +337,7 @@
     {
       "id": 36,
       "name": "Orange Dining Chair",
-      "price": 69,
+      "price": 103500,
       "imgUrl": "https://cdn-images.article.com/products/SKU3064/2890x1500/image140838.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -346,7 +346,7 @@
     {
       "id": 37,
       "name": "Oak Round Dining Table",
-      "price": 149,
+      "price": 223500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18528/2890x1500/image133184.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -354,8 +354,8 @@
     },
     {
       "id": 38,
-      "name": "Walnut Oval Dining Table",
-      "price": 799,
+      "name": "Walnut Oval Table",
+      "price": 1198500,
       "imgUrl": "https://cdn-images.article.com/products/SKU45/2890x1500/image132070.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
@@ -364,8 +364,17 @@
     {
       "id": 39,
       "name": "Dark Gray Table for 6",
-      "price": 1100,
+      "price": 1650000,
       "imgUrl": "https://cdn-images.article.com/products/SKU15537/2890x1500/image147030.jpg?w=425&q=80&fm=webp&fit=max",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
+      "category": "dining",
+      "color": "gray"
+    },
+    {
+      "id": 91,
+      "name": "Outdoor Dining for 6",
+      "price": 2829000,
+      "imgUrl": "https://cdn-images.article.com/products/SKU21549/2890x1500/image125727.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "dining",
       "color": "gray"
@@ -373,7 +382,7 @@
     {
       "id": 40,
       "name": "Black Floor Lamp",
-      "price": 249,
+      "price": 373500,
       "imgUrl": "https://cdn-images.article.com/products/SKU11501/2890x1500/image148025.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -382,7 +391,7 @@
     {
       "id": 41,
       "name": "Brass Table Lamp",
-      "price": 179,
+      "price": 268500,
       "imgUrl": "https://cdn-images.article.com/products/SKU23603/2890x1500/image128359.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -391,7 +400,7 @@
     {
       "id": 42,
       "name": "White '21' Table Lamp",
-      "price": 179,
+      "price": 268500,
       "imgUrl": "https://cdn-images.article.com/products/SKU17425/2890x1500/image130209.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -400,7 +409,7 @@
     {
       "id": 43,
       "name": "Green Pendant Lamp",
-      "price": 199,
+      "price": 298500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18738/2890x1500/image127407.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -409,7 +418,7 @@
     {
       "id": 44,
       "name": "Moon Gold Floor Lamp",
-      "price": 189,
+      "price": 283500,
       "imgUrl": "https://cdn-images.article.com/products/SKU2367/2890x1500/image122016.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -418,7 +427,7 @@
     {
       "id": 45,
       "name": "Leap Black Sconce",
-      "price": 99,
+      "price": 148500,
       "imgUrl": "https://cdn-images.article.com/products/SKU11476/2890x1500/image147989.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -427,7 +436,7 @@
     {
       "id": 46,
       "name": "White Pendant Lamp",
-      "price": 159,
+      "price": 238500,
       "imgUrl": "https://cdn-images.article.com/products/SKU20018/2890x1500/image135460.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -436,7 +445,7 @@
     {
       "id": 47,
       "name": "Park White Lantern",
-      "price": 119,
+      "price": 178500,
       "imgUrl": "https://cdn-images.article.com/products/SKU18937/2890x1500/image127452.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -445,16 +454,16 @@
     {
       "id": 48,
       "name": "Bori Natural Lantern",
-      "price": 119,
+      "price": 178500,
       "imgUrl": "https://cdn-images.article.com/products/SKU14475/2890x1500/image130024.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
       "color": "black"
     },
     {
-      "id": 90,
+      "id": 92,
       "name": "Coy Chandelier",
-      "price": 399,
+      "price": 598500,
       "imgUrl": "https://cdn-images.article.com/products/SKU24952/2890x1500/image156959.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "lighting",
@@ -463,7 +472,7 @@
     {
       "id": 49,
       "name": "Arch Cream Rug 8 x 10",
-      "price": 700,
+      "price": 1050000,
       "imgUrl": "https://cdn-images.article.com/products/SKU22977/2890x1500/image132374.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -472,7 +481,7 @@
     {
       "id": 50,
       "name": "Motif Blue Rug 8 x 10",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU18211/2890x1500/image129902.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -481,7 +490,7 @@
     {
       "id": 51,
       "name": "Farad Agate Gray Rug 8 x10 ",
-      "price": 530,
+      "price": 795000,
       "imgUrl": "https://cdn-images.article.com/products/SKU15656/2890x1500/image133066.jpg?w=425&q=80&fm=webp&fit=max",
       "category": "rugs",
       "color": "gray"
@@ -489,7 +498,7 @@
     {
       "id": 52,
       "name": "Pearl Blue Rug 8 x 10",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU13976/2890x1500/image123975.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -498,7 +507,7 @@
     {
       "id": 53,
       "name": "Vanilla Ivory Rug 5 x 8",
-      "price": 300,
+      "price": 450000,
       "imgUrl": "https://cdn-images.article.com/products/SKU495B/2890x1500/image132141.jpg?w=425&q=80&fm=webp&fit=max",
       "category": "rugs",
       "color": "ivory"
@@ -506,7 +515,7 @@
     {
       "id": 54,
       "name": "Oma Rug 9' ",
-      "price": 360,
+      "price": 540000,
       "imgUrl": "https://cdn-images.article.com/products/SKU12181/2890x1500/image134644.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -515,7 +524,7 @@
     {
       "id": 55,
       "name": "Indoor Outdoor Rug 9 x 12",
-      "price": 699,
+      "price": 1048500,
       "imgUrl": "https://cdn-images.article.com/products/SKU24400/2890x1500/image139162.jpg?w=425&q=80&fm=webp&fit=max",
       "category": "rugs",
       "color": ""
@@ -523,7 +532,7 @@
     {
       "id": 56,
       "name": "Silver Gray Rug 9 x 12",
-      "price": 800,
+      "price": 1200000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23134/2890x1500/image127697.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -532,7 +541,7 @@
     {
       "id": 57,
       "name": "Performance Rug 8 x 10",
-      "price": 800,
+      "price": 1200000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23267/2890x1500/image127423.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -541,7 +550,7 @@
     {
       "id": 90,
       "name": "Performance Rug 8 x 10",
-      "price": 800,
+      "price": 1200000,
       "imgUrl": "https://cdn-images.article.com/products/SKU20029/2890x1500/image130815.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "rugs",
@@ -550,7 +559,7 @@
     {
       "id": 58,
       "name": "Silver Modular Sofa",
-      "price": 2100,
+      "price": 3150000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24528/2890x1500/image147568.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -559,7 +568,7 @@
     {
       "id": 59,
       "name": "Navy Blue Velvet Sofa",
-      "price": 1800,
+      "price": 2700000,
       "imgUrl": "https://cdn-images.article.com/products/SKU25121/2890x1500/image153657.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -568,7 +577,7 @@
     {
       "id": 60,
       "name": "Silver Gray Sofa",
-      "price": 1530,
+      "price": 2295000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24531/2890x1500/image145587.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -577,7 +586,7 @@
     {
       "id": 61,
       "name": "Reversible Sectional Sofa",
-      "price": 1500,
+      "price": 2250000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24926/2890x1500/image159970.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -586,7 +595,7 @@
     {
       "id": 62,
       "name": "Tifted Cascadia Blue Sofa",
-      "price": 2300,
+      "price": 3450000,
       "imgUrl": "https://cdn-images.article.com/products/SKU338D/2890x1500/image150164.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -595,7 +604,7 @@
     {
       "id": 63,
       "name": "Silver Light Blue Sofa",
-      "price": 1750,
+      "price": 2625000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24639/2890x1500/image152828.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -604,7 +613,7 @@
     {
       "id": 64,
       "name": "Ivory Sofa",
-      "price": 1500,
+      "price": 2250000,
       "imgUrl": "https://cdn-images.article.com/products/SKU15671/2890x1500/image151194.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -613,7 +622,7 @@
     {
       "id": 65,
       "name": "Napa Charcoal Sofa",
-      "price": 1610,
+      "price": 2415000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24544/2890x1500/image152204.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -622,7 +631,7 @@
     {
       "id": 66,
       "name": "Right Sectional Sofa",
-      "price": 1160,
+      "price": 1740000,
       "imgUrl": "https://cdn-images.article.com/products/SKU25523/2890x1500/image158458.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -631,7 +640,7 @@
     {
       "id": 88,
       "name": "100' Left Sectional Sofa",
-      "price": 2200,
+      "price": 3300000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24762/2890x1500/image157666.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "sofa",
@@ -640,7 +649,7 @@
     {
       "id": 67,
       "name": "6 Drawer Double Dresser",
-      "price": 139,
+      "price": 208500,
       "imgUrl": "https://cdn-images.article.com/products/SKU16797/2890x1500/image149090.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -649,7 +658,7 @@
     {
       "id": 68,
       "name": "Black '73' Cabinet",
-      "price": 110,
+      "price": 165000,
       "imgUrl": "https://cdn-images.article.com/products/SKU11558/2890x1500/image148006.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -658,7 +667,7 @@
     {
       "id": 69,
       "name": "Warm Oak Bookcase",
-      "price": 799,
+      "price": 1198500,
       "imgUrl": "https://cdn-images.article.com/products/SKU19559/2890x1500/image147132.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -667,7 +676,7 @@
     {
       "id": 70,
       "name": "White Wide Bookcase",
-      "price": 699,
+      "price": 1048500,
       "imgUrl": "https://cdn-images.article.com/products/SKU22229/2890x1500/image122979.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -676,7 +685,7 @@
     {
       "id": 71,
       "name": "White Walnut Shelf",
-      "price": 599,
+      "price": 898500,
       "imgUrl": "https://cdn-images.article.com/products/SKU3448/2890x1500/image155878.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -685,7 +694,7 @@
     {
       "id": 72,
       "name": "Walnut Shelving Unit",
-      "price": 650,
+      "price": 975000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19964/2890x1500/image118614.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -694,7 +703,7 @@
     {
       "id": 73,
       "name": "Ivory '19' Storage Ottoman",
-      "price": 160,
+      "price": 240000,
       "imgUrl": "https://cdn-images.article.com/products/SKU17716/2890x1500/image126600.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -703,7 +712,7 @@
     {
       "id": 74,
       "name": "White Oak Armoire",
-      "price": 190,
+      "price": 285000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23432/2890x1500/image156007.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -712,7 +721,7 @@
     {
       "id": 75,
       "name": "Deca Oak Cabinet",
-      "price": 500,
+      "price": 750000,
       "imgUrl": "https://cdn-images.article.com/products/SKU18773/2890x1500/image148014.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -721,7 +730,7 @@
     {
       "id": 87,
       "name": "Shelf And Coat Rack",
-      "price": 150,
+      "price": 225000,
       "imgUrl": "https://cdn-images.article.com/products/SKU25508/2890x1500/image171627.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "storage",
@@ -730,7 +739,7 @@
     {
       "id": 76,
       "name": "Oak Coffee Table",
-      "price": 400,
+      "price": 600000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19549/2890x1500/image131779.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -739,7 +748,7 @@
     {
       "id": 77,
       "name": "Walnut Side Table",
-      "price": 150,
+      "price": 225000,
       "imgUrl": "https://cdn-images.article.com/products/SKU360/2890x1500/image140750.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -748,7 +757,7 @@
     {
       "id": 78,
       "name": "White Top Coffee Table",
-      "price": 350,
+      "price": 525000,
       "imgUrl": "https://cdn-images.article.com/products/SKU13361V1/2890x1500/image128091.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -757,7 +766,7 @@
     {
       "id": 79,
       "name": "Oak Storage Side Table",
-      "price": 450,
+      "price": 675000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23365/2890x1500/image145147.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -766,7 +775,7 @@
     {
       "id": 80,
       "name": "Black Side Table",
-      "price": 200,
+      "price": 300000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19544/2890x1500/image136135.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -775,7 +784,7 @@
     {
       "id": 81,
       "name": "Smoked Oak Coffee Table",
-      "price": 700,
+      "price": 1050000,
       "imgUrl": "https://cdn-images.article.com/products/SKU24273/2890x1500/image146974.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -784,7 +793,7 @@
     {
       "id": 82,
       "name": "Rust Side Table",
-      "price": 350,
+      "price": 525000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19541/2890x1500/image125145.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -793,7 +802,7 @@
     {
       "id": 83,
       "name": "Agotu Walnut Side Table",
-      "price": 440,
+      "price": 660000,
       "imgUrl": "https://cdn-images.article.com/products/SKU19377/2890x1500/image128673.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -802,7 +811,7 @@
     {
       "id": 84,
       "name": "Baarlo Side Oak Table",
-      "price": 400,
+      "price": 600000,
       "imgUrl": "https://cdn-images.article.com/products/SKU18106/2890x1500/image134998.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",
@@ -811,7 +820,7 @@
     {
       "id": 89,
       "name": "White Oak Desk",
-      "price": 900,
+      "price": 1350000,
       "imgUrl": "https://cdn-images.article.com/products/SKU23368/2890x1500/image122198.jpg?w=425&q=80&fm=webp&fit=max",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate, voluptates dignissimos reprehenderit qui libero tempora iste totam ad doloremque voluptatum.",
       "category": "table",

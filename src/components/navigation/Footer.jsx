@@ -89,8 +89,8 @@ export const Footer = () => {
           </div>
           <div className="border-t-[2px] border-black py-4"></div>
           <div className="block sm:flex items-center justify-between px-1">
-            <h2 className="text-md md:text-lg font-bold font-cinzel">
-              Copyright © 2024 Meubles. All rights reserved
+            <h2 className="text-sm md:text-lg font-bold">
+              Copyright © 2025 Meubles. All rights reserved
             </h2>
             <ul className="flex items-center justify-center py-2 gap-6">
               <li className="cursor-pointer">

@@ -45,12 +45,12 @@ export const Category = () => {
       </div>
 
       <div className="hidden mt-8 lg:flex justify-center items-center">
-        <ul className="px-4 py-2 lg:w-[80%] xl:w-[55%] flex gap-1 justify-center items-center shadow-md rounded-full bg-[#f8f7f4]">
+        <ul className="px-4 py-2 lg:w-[80%] xl:w-[55%] flex gap-1 justify-center items-center shadow-md rounded-md bg-white">
           {Object.keys(categories).map((category) => (
             <li
               key={category}
-              className={`text-md rounded-full px-4 max-md:px-2 lg:px-4 xl:px-3 max-lg:px-4 py-[5px] cursor-pointer ${
-                selectedCategory === category ? "bg-gray-800 text-white" : ""
+              className={`text-md rounded-md px-4 max-md:px-2 lg:px-4 xl:px-3 max-lg:px-4 py-[5px] cursor-pointer ${
+                selectedCategory === category ? "bg-black text-white" : ""
               }`}
               onClick={() => setSelectedCategory(category)}
             >

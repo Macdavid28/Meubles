@@ -5,11 +5,11 @@ import {
   Bars3Icon,
   XMarkIcon,
   ShoppingBagIcon,
-  HeartIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import ProductDropdown from "../dropdown/ProductDropdown";
 import { RoomDropdown } from "../dropdown/RoomDropdown";
+import { AuthDropdown } from "../dropdown/AuthDropdown";
 import { auth } from "../../config/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { CartPreview } from "../../pages/cart/CartPreview";
@@ -107,14 +107,14 @@ const Navbar = () => {
         <div className="flex gap-8 items-center">
           {/* Icons */}
           <div className="flex items-center gap-4">
-            <UserCircleIcon className="w-6 text-black hover:text-white  focus:text-black" />
-
-            <HeartIcon
-              className="w-6 text-black hover:text-white text-xl"
-              title="Wishlist"
-              // onClick={toggleWishlistPreview}
+            <AuthDropdown
+              title="Login"
+              items={[
+                { label: "Register", link: "/signup" },
+                { label: "Sign In", link: "/login" },
+              ]}
+              isMobile={isOpen}
             />
-
             <ShoppingBagIcon
               className="w-6 text-black hover:text-white text-xl relative"
               title="Cart"
@@ -145,15 +145,6 @@ const Navbar = () => {
               <Link to="/">Meubles</Link>
             </h1>
             <span className="flex items-center gap-3">
-              <Link
-                to="/wishlist"
-                className="text-black hover:text-white text-lg font-medium"
-              >
-                <HeartIcon
-                  className="w-5 text-black hover:text-white"
-                  title="Wishlist"
-                />
-              </Link>
               <Link to="/cart">
                 <ShoppingBagIcon
                   className="w-5 text-black hover:text-white"

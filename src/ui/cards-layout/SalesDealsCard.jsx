@@ -1,15 +1,18 @@
 import {
   ShoppingBagIcon,
   ArrowRightIcon,
-  HeartIcon,
   StarIcon,
 } from "@heroicons/react/24/outline";
 import { StarIcon as SolidStarIcon } from "@heroicons/react/24/solid";
+import { SalesData } from "../../constants/index";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../redux/slices/cart-slice";
+import { toast } from "react-toastify";
 
-export const SalesDealsCard = ({ salesDealsList }) => {
+export const SalesDealsCard = () => {
   // Function to display star icons based on rating
   const renderStars = (rating) => {
     const stars = [];
@@ -22,7 +25,15 @@ export const SalesDealsCard = ({ salesDealsList }) => {
     }
     return stars;
   };
-
+  const dispatch = useDispatch();
+  const notification = () => {
+    toast.success("Added to cart", {
+      autoClose: 500,
+      pauseOnHover: false,
+      pauseOnFocusLoss: false,
+      hideProgressBar: true,
+    });
+  };
   return (
     <div>
       <div className="flex justify-between items-center z-10  ">
@@ -56,7 +67,7 @@ export const SalesDealsCard = ({ salesDealsList }) => {
             1024: { slidesPerView: 4 },
           }}
         >
-          {salesDealsList.map((salesItem, index) => (
+          {SalesData.map((salesItem, index) => (
             <SwiperSlide key={salesItem.id}>
               <ul className="border border-gray-300 rounded-md p-4 relative ">
                 <div className="relative">
@@ -68,9 +79,6 @@ export const SalesDealsCard = ({ salesDealsList }) => {
                   <span className="absolute top-2 left-0 bg-gray-300 w-24 h-9 text-black  p-2 clip-ribbon">
                     {salesItem.off} off
                   </span>
-                  <span className="absolute top-1 right-0 m-2">
-                    <HeartIcon className="w-9 h-9 text-black cursor-pointer bg-gray-300 p-2 rounded-full" />
-                  </span>
                 </div>
                 <span className="flex gap-1 py-2">
                   {renderStars(salesItem.rating)}
@@ -78,13 +86,27 @@ export const SalesDealsCard = ({ salesDealsList }) => {
                 <li className="text-[14px] font-semibold">{salesItem.name}</li>
                 <li>
                   <ul className="flex justify-between py-2">
-                    <li>${salesItem.price}</li>
+                    <li>₦ {salesItem.price.toLocaleString()}</li>
                     <li className="line-through text-gray-300">
-                      ${salesItem.formerPrice}
+                      ${salesItem.formerPrice.toLocaleString()}
                     </li>
                   </ul>
                   {/* Add to cart button */}
-                  <button className="w-[100%] p-2 bg-gray-300 rounded-md flex justify-center gap-4 font-normal">
+                  <button
+                    className="w-[100%] p-2 bg-gray-300 rounded-md flex justify-center gap-4 font-normal"
+                    onClick={() => {
+                      dispatch(
+                        cartActions.addToCart({
+                          id: salesItem.id,
+                          name: salesItem.name,
+                          price: salesItem.price,
+                          imgUrl: salesItem.img,
+                        })
+                      );
+
+                      notification();
+                    }}
+                  >
                     <ShoppingBagIcon className="w-6 text-black font-normal" />
                     Add to cart
                   </button>

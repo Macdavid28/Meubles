@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../redux/slices/cart-slice";
-import { MinusIcon, PlusIcon, TrashIcon } from "@heroicons/react/24/outline";
+import { MinusIcon, PlusIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export const CartLayout = ({
   name,
@@ -37,18 +37,24 @@ export const CartLayout = ({
         <div className="flex items-center gap-20">
           {/* Product image and name */}
           <div className="flex items-center w-[50%]">
-            <TrashIcon
-              className="w-5 mx-4 cursor-pointer"
-              onClick={deleteItemFromCart}
-            />
-            <img src={imgUrl} className="h-24 w-24 rounded-md" alt="" />
+            <div className="">
+              <img src={imgUrl} className="h-24 w-24 mx-8 rounded-md" alt="" />
+              <button
+                className="flex items-center gap-1 mx-8 mt-2"
+                onClick={deleteItemFromCart}
+              >
+                <XMarkIcon className="w-4" /> Remove
+              </button>
+            </div>
             <span className="block ml-4">
               <p className="p-4 text-sm lg:text-[1rem] font-medium">{name} </p>
-              <p className="px-4 text-sm font-medium">$ {price}.00 </p>
+              <p className="px-4 text-sm font-medium">
+                ₦ {price.toLocaleString()}.00{" "}
+              </p>
             </span>
           </div>
           {/* Increment and Decrement product quantity */}
-          <span className="flex items-center gap-2 h-10 px-2 lg:px-5 border border-black rounded-md">
+          <span className="block md:flex items-center gap-2 h-10 px-2 lg:px-5 border border-black rounded-md">
             <button>
               <MinusIcon className="w-5" onClick={decrement} />
             </button>
@@ -58,7 +64,9 @@ export const CartLayout = ({
             </button>
           </span>
 
-          <p className="p-4 text-md font-medium w-32">$ {totalPrice}</p>
+          <p className="p-4 text-md font-medium w-32">
+            ₦ {totalPrice.toLocaleString()}
+          </p>
         </div>
       </div>
     </div>
