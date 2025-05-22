@@ -8,7 +8,7 @@ export const Collection = () => {
       <img
         src="https://i.postimg.cc/KY6tQ4mj/collection-banner.png"
         alt=""
-        className="w-full h-[400px] object-cover"
+        className="w-full h-[430px] object-cover"
       />
       <div className="absolute inset-0 bg-black/50"></div>
       <motion.div
@@ -18,13 +18,13 @@ export const Collection = () => {
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1, ease: "easeIn" }}
       >
-        <h1 className="text-3xl 768:text-5xl md:text-3xl mt-10 md:text-[50px] text-white text-left font-bold font-cinzel">
+        <h1 className=" text-xl md:text-3xl mt-10 md:text-[50px] text-white text-left font-bold font-lora">
           Your Furniture Says A Lot About You
         </h1>
-        <p className="my-4 768:my-8 md:my-8 text-xl 768:text-3xl md:text-3xl text-white font-semibold text-left font-cinzel">
+        <p className="my-4 md:my-8 text-md  md:text-3xl text-white font-semibold text-left font-lora">
           Pick from our variety of collections
         </p>
-        <button className="my-4 p-3 rounded-md border-2 font-semibold border-white text-white block text-left text-lg md:text-xl 768:text-2xl font-cinzel">
+        <button className="my-4 p-3 rounded-md border-2 font-semibold border-white text-white block text-left text-lg md:text-xl  font-lora">
           Explore Our Collection
         </button>
       </motion.div>

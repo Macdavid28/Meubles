@@ -27,6 +27,7 @@ import { SignIn } from "@pages/authentication/signin";
 import { SignUp } from "@pages/authentication/signup";
 import { Cart } from "@pages/cart/cart";
 import { Checkout } from "@pages/checkout/checkout";
+import { SalesDetails } from "./pages/details/salesdetails";
 export const AppContext = createContext();
 function App() {
   const [showSearch, setShowSearch] = useState(false);
@@ -53,6 +54,7 @@ function App() {
           <Route path="/lighting" element={<Lighting />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/products/:name" element={<ProductDetails />} />
+          <Route path="/sales/:name" element={<SalesDetails />} />
           <Route path="/rooms/:name" element={<RoomDetails />} />
           <Route path="/login" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />

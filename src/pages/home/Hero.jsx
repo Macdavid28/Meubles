@@ -21,7 +21,7 @@ export const Hero = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="text-white text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-semibold mb-6"
+          className="text-white text-xl sm:text-4xl md:text-5xl xl:text-7xl font-semibold mb-6 font-Cinzel"
         >
           Luxury And Elegance
         </motion.h1>
@@ -47,7 +47,10 @@ export const Hero = () => {
             transition={{ duration: 1 }}
             className="self-start md:self-auto border border-white p-4 rounded-full cursor-pointer hover:bg-white/10 transition"
           >
-            <ArrowRightIcon className="h-8 w-8 text-white" />
+            <Link to="/beds">
+              {" "}
+              <ArrowRightIcon className="h-8 w-8 text-white" />
+            </Link>
           </motion.div>
         </div>
       </div>

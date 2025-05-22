@@ -11,6 +11,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useDispatch } from "react-redux";
 import { cartActions } from "@/redux/slice/cart-slice";
 import { toast, Slide } from "react-toastify";
+import { Link } from "react-router-dom";
 
 export const SalesDealsCard = () => {
   // Function to display star icons based on rating
@@ -72,11 +73,14 @@ export const SalesDealsCard = () => {
             <SwiperSlide key={salesItem.id}>
               <ul className="shadow-sm shadow-black m-1 rounded-xl  p-4 relative ">
                 <div className="relative">
-                  <img
-                    src={salesItem.img}
-                    className="relative rounded-md w-full"
-                    alt={salesItem.name}
-                  />
+                  <Link to={`/sales/${salesItem.name}`}>
+                    {" "}
+                    <img
+                      src={salesItem.img}
+                      className="relative rounded-md w-full"
+                      alt={salesItem.name}
+                    />
+                  </Link>
                   <span className=" absolute top-2 left-0 bg-black/50 w-24 h-9 text-white  p-2 clip-polygon">
                     {salesItem.off} off
                   </span>
