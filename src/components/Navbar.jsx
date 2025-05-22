@@ -18,14 +18,15 @@ import { signOut } from "firebase/auth";
 export const Navbar = () => {
   const [user] = useAuthState(auth);
   const [isOpen, setIsOpen] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   // Toggle Responsive Navbar Function
   const toggleNavbar = () => {
-    setIsOpen((prev) => !prev);
+    setMobileMenu((prev) => !prev);
   };
   // Navbar Overlay
   useEffect(() => {
-    if (isOpen) {
+    if (mobileMenu) {
       document.body.classList.add("overflow-hidden");
     } else {
       document.body.classList.remove("overflow-hidden");
@@ -33,7 +34,7 @@ export const Navbar = () => {
     return () => {
       document.body.classList.remove("overflow-hidden");
     };
-  }, [isOpen]);
+  }, [mobileMenu]);
 
   const navigate = useNavigate();
   const signOutFunction = async () => {
@@ -94,7 +95,7 @@ export const Navbar = () => {
                 { label: "Dining", link: "/dining" },
                 { label: "Lighting", link: "/lighting" },
               ]}
-              isMobile={isOpen}
+              isMobile={false}
             />
           </li>
           <li>
@@ -108,7 +109,7 @@ export const Navbar = () => {
                 { label: "Bedroom", link: "/bedroom" },
                 { label: "Dining Room", link: "/dining-room" },
               ]}
-              isMobile={isOpen}
+              isMobile={false}
             />
           </li>
           <li className="text-lg hover:text-white">
@@ -179,14 +180,14 @@ export const Navbar = () => {
         {/* Black Opacity When Navbar is opened */}
         <div
           className={`fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40 ${
-            isOpen ? "block" : "hidden"
+            mobileMenu ? "block" : "hidden"
           }`}
           onClick={toggleNavbar}
         ></div>
         {/* Responsive Navbar */}
         <div
           className={`fixed top-0 left-0 w-[70%] md:w-[50%] bg-gray-400 z-50 h-full ease-in-out duration-500 ${
-            isOpen ? "translate-x-0" : "-translate-x-full"
+            mobileMenu ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <span className="flex justify-between items-center px-2 border-b-2 border-gray-300">
@@ -233,6 +234,8 @@ export const Navbar = () => {
               <ProductDropdown
                 showSearch={showSearch}
                 setShowSearch={setShowSearch}
+                mobileMenu={mobileMenu}
+                setMobileMenu={setMobileMenu}
                 title="Products"
                 items={[
                   { label: "Beds", link: "/beds" },
@@ -245,11 +248,13 @@ export const Navbar = () => {
                   { label: "Dining", link: "/dining" },
                   { label: "Lighting", link: "/lighting" },
                 ]}
-                isMobile={isOpen}
+                isMobile={true}
               />
             </li>
             <li className="p-4 border-b border-b-white font-medium">
               <RoomDropdown
+                mobileMenu={mobileMenu}
+                setMobileMenu={setMobileMenu}
                 showSearch={showSearch}
                 setShowSearch={setShowSearch}
                 title="Rooms"
@@ -258,7 +263,7 @@ export const Navbar = () => {
                   { label: "Bedroom", link: "/bedroom" },
                   { label: "Dining Room", link: "/dining-room" },
                 ]}
-                isMobile={isOpen}
+                isMobile={true}
               />
             </li>
             <li

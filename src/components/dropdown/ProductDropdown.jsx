@@ -12,7 +12,8 @@ const ProductDropdown = ({
   items,
   isMobile,
   setShowSearch,
-  toggleNavbar,
+  mobileMenu,
+  setMobileMenu,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -63,7 +64,7 @@ const ProductDropdown = ({
                 to={item.link}
                 key={index}
                 onClick={() => {
-                  setShowSearch(false), toggleDropdown(), toggleNavbar();
+                  setShowSearch(false), toggleDropdown(), setMobileMenu(false);
                 }}
               >
                 <li className="py-2 lg:p-2 text-black border-b border-b-gray-400 lg:hover:border-l-4 text-sm hover:border-l-gray-400">
