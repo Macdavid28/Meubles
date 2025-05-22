@@ -25,7 +25,7 @@ import { ProductDetails } from "@pages/details/productdetails";
 import { RoomDetails } from "@pages/details/roomdetails";
 import { SignIn } from "@pages/authentication/signin";
 import { SignUp } from "@pages/authentication/signup";
-import { Cart } from "@pages/cart/Cart";
+import { Cart } from "@pages/cart/cart";
 import { Checkout } from "@pages/checkout/checkout";
 export const AppContext = createContext();
 function App() {
