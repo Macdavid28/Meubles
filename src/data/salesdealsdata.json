@@ -1,0 +1,84 @@
+{
+  "SalesData": [
+    {
+      "id": 1,
+      "img": "https://i.postimg.cc/T2Qt9q54/salt_blue_ottoman.png",
+      "name": "Saltwater Blue Ottoman",
+      "price": 225000,
+      "formerPrice": 4500000,
+
+      "off": "50%",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "img": "https://i.postimg.cc/3JcnM8Bj/white_sofa.png",
+      "name": "White Sofa",
+      "price": 750000,
+      "formerPrice": 1500000,
+
+      "off": "50%",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "img": "https://i.postimg.cc/7hBXZwyk/swivel_chair.png",
+      "name": "Swivel Chair",
+      "price": 1050000,
+      "formerPrice": 2100000,
+
+      "off": "50%",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "img": "https://i.postimg.cc/d0dWmbG2/rust_left_sofa.png",
+      "name": "Rust Left Sectional Sofa",
+      "price": 2625000,
+      "formerPrice": 5250000,
+
+      "off": "50%",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "img": "https://i.postimg.cc/Cx9P8hnM/crimson_lamp.png",
+      "name": "Crimson Table Lamp",
+      "price": 125000,
+      "formerPrice": 450000,
+
+      "off": "50%",
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "img": "https://i.postimg.cc/SK0dsgHJ/velvet_office.png",
+      "name": "Velvet Office Chair",
+      "price": 127500,
+      "formerPrice": 2550000,
+
+      "off": "50%",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "img": "https://i.postimg.cc/vBt3C5qD/green_oak_chair.png",
+      "name": "Green Oak Dining Chair",
+      "price": 525000,
+      "formerPrice": 1050000,
+
+      "off": "50%",
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "img": "https://i.postimg.cc/L6XN0Yz6/walnut_bookcase.png",
+      "name": "Walnut Tall Bookcase",
+      "price": 1350000,
+      "formerPrice": 2700000,
+
+      "off": "50%",
+      "rating": 4
+    }
+  ]
+}

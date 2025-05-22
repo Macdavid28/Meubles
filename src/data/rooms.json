@@ -1,0 +1,212 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "The Super Ceni",
+      "price": 2563500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/BvG5sX1F/super-ceni.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 2,
+      "name": "Lounging On Cloud Nine",
+      "desc": "",
+      "price": 2278500,
+      "imgUrl": "https://i.postimg.cc/sXsJPvjz/cloud-nine.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 3,
+      "name": "The Leather on Leather",
+      "desc": "",
+      "price": 2991000,
+      "imgUrl": "https://i.postimg.cc/KjYrVw3s/leather-on-leather.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 4,
+      "name": "The Greatest Hits",
+      "desc": "",
+      "price": 2890500,
+      "imgUrl": "https://i.postimg.cc/V6gWKmvC/greatest-hits.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 5,
+      "name": "The Lounge In Luxury",
+      "desc": "",
+      "price": 2481000,
+      "imgUrl": "https://i.postimg.cc/FFPxcr2t/lounge-in-luxury.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 6,
+      "name": "The Next Level Nap",
+      "desc": "",
+      "price": 4131000,
+      "imgUrl": "https://i.postimg.cc/xCZPG3tz/next-level.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 7,
+      "name": "The Dependable Duo",
+      "desc": "",
+      "price": 1993500,
+      "imgUrl": "https://i.postimg.cc/ZnDFhHrY/dependable-duo.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 8,
+      "name": "The Sophisticated",
+      "desc": "",
+      "price": 3067500,
+      "imgUrl": "https://i.postimg.cc/HkM0fQjH/sophisticated.webp",
+      "category": "living-room"
+    },
+    {
+      "id": 9,
+      "name": "The Simple Solution",
+      "desc": "",
+      "price": 1533000,
+      "imgUrl": "https://i.postimg.cc/xTc3Pr2X/simple-solution.webp",
+      "category": "living-room"
+    },
+
+    {
+      "id": 10,
+      "name": "Nocturnal Bliss",
+      "price": 4369500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/dtt8tb1W/bedroom-bundle-8.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 11,
+      "name": "Euphoria Sleep Kit",
+      "price": 2349000,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/Dyj1Wx47/bedroom-bundle.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 12,
+      "name": "Celestial Comfort",
+      "price": 1993500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/V6qjd1nh/bedroom-bundle-5.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 13,
+      "name": "Cozy Escape",
+      "price": 2250000,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/bwrHL7fG/bedroom-bundle-2.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 14,
+      "name": "Cloud Nine Comfort",
+      "price": 1957500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/qBGsrJkh/bedroom-bundle-7.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 15,
+      "name": "Elysian Slumber",
+      "price": 1483500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/GpsPnv2d/bedroom-bundle-3.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 16,
+      "name": "Peaceful Dreams",
+      "price": 2097000,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/3R5X8W4p/bedroom-bundle-4.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 17,
+      "name": "Tranquil Retreat",
+      "price": 4072500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/x8gM3Rsy/bedroom-bundle-6.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 18,
+      "name": "Dream Haven",
+      "price": 2779500,
+      "desc": "",
+      "imgUrl": "https://i.postimg.cc/8PtmR19Q/bedroom-bundle-1.webp",
+      "category": "bedroom"
+    },
+    {
+      "id": 19,
+      "name": "The Feast Ensemble",
+      "price": 3270000,
+      "imgUrl": "https://i.postimg.cc/dVFcyjbS/dining-bundle-7.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 20,
+      "name": "Epicurean Bliss Set",
+      "price": 2397000,
+      "imgUrl": "https://i.postimg.cc/wMR0Wnmc/dining-bundle-3.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 21,
+      "name": "Opulent Dining-room Oasis",
+      "price": 4065000,
+      "imgUrl": "https://i.postimg.cc/6Q5sH55r/dining-bundle.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 22,
+      "name": "Culinary Comfort",
+      "price": 1216500,
+      "imgUrl": "https://i.postimg.cc/SssZ9nQP/dining-bundle-1.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 23,
+      "name": "Savory Retreat",
+      "price": 2475000,
+      "imgUrl": "https://i.postimg.cc/HktD47HW/dining-bundle-8.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 24,
+      "name": "Timeless Dining-room Elegance",
+      "price": 2550000,
+      "imgUrl": "https://i.postimg.cc/1tjvryf3/dining-bundle-4.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 25,
+      "name": "Elegant Feast",
+      "price": 2400000,
+      "imgUrl": "https://i.postimg.cc/v8psQs3y/dining-bundle-5.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 26,
+      "name": "Harvest Harmony",
+      "price": 1770000,
+      "imgUrl": "https://i.postimg.cc/5jcpDp5c/dining-bundle-2.webp",
+      "category": "dining-room"
+    },
+    {
+      "id": 27,
+      "name": "Chic Culinary Collection",
+      "price": 1888500,
+      "imgUrl": "https://i.postimg.cc/VLncvVVC/dining-bundle-6.webp",
+      "category": "dining-room"
+    }
+  ]
+}

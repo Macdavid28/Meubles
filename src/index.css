@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import "tailwindcss";
+@theme {
+  --font-Cinzel: Cinzel Decorative;
+  --font-quicksand: Quicksand;
+  --font-lora: Lora;
+  --font-Rubik: Rubik;
+  --color-main-gray: #f8f7f4;
+}
+body {
+  font-family: var(--font-Rubik);
+  background: #f8f7f4;
+}
+
+@layer {
+  .linear {
+    background: "linear-gradient(to bottom, #D1D5DB 50%, #ffffff 50%)";
+  }
+  .secondLinear {
+    background: "linear-gradient(to left, #b0b0b0 40%, #fff 40%)";
+  }
+  .addLinear {
+    background: "linear-gradient(to top, #b0b0b0 40%, #fff 40%)";
+  }
+  .clip-polygon {
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+  }
+}
