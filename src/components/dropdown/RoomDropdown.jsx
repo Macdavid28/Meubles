@@ -12,7 +12,6 @@ export const RoomDropdown = ({
   items,
   isMobile,
   setShowSearch,
-  mobileMenu,
   setMobileMenu,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
