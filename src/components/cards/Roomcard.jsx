@@ -11,7 +11,7 @@ export const RoomCard = ({ name, imgUrl, link }) => {
         onMouseOver={() => setButton(true)}
         onMouseLeave={() => setButton(false)}
       >
-        <img src={imgUrl} alt="" />
+        <img src={imgUrl} className="w-full" alt="" />
         <Link to={link}>
           {button ? (
             <ArrowRightIcon className="w-8 text-white absolute bottom-40 right-40 z-50" />

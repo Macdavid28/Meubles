@@ -11,7 +11,7 @@ export const Services = () => {
         Our Services
       </h1>
       <div className="mt-3 border-t-2 border-black w-[130px] mx-auto rounded-full"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-5 lg:flex">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-5 lg:flex [&_h1]:font-lora">
         <motion.div
           ref={ref}
           className="px-8  bg-main-gray py-4 border-l-2 border-b-2"
