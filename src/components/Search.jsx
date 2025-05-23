@@ -28,47 +28,38 @@ export const Search = () => {
     const searchInput = e.target.value;
     setSearchInput(searchInput);
   };
-  // No Results Found
+
   const handleNoInput = (productInput) => {
+    const keywords = searchInput.trim().toLowerCase().split(" ");
     const filteredProduct = productInput.filter((prod) => {
-      return (
-        prod.name.toLowerCase().includes(searchInput.trim().toLowerCase()) ||
-        prod.category
-          .toLowerCase()
-          .includes(searchInput.trim().toLowerCase()) ||
-        prod.color.toLowerCase().includes(searchInput.trim().toLowerCase())
-      );
+      const combinedText =
+        `${prod.name} ${prod.category} ${prod.color}`.toLowerCase();
+      return keywords.every((keyword) => combinedText.includes(keyword));
     });
-    if (filteredProduct.length === 0) {
+
+    if (searchInput && filteredProduct.length === 0) {
       return (
         <div className="block text-center">
           <h1 className="text-3xl font-bold py-4">
-            No result found for "{searchInput}" !
+            No result found for "{searchInput}"!
           </h1>
           <p className="text-sm text-gray-500 w-96 mx-auto">
-            Sorry we couldn't find any result that match your search
-            query.Please try refining your search
+            Sorry, we couldn't find any result that match your search query.
+            Please try refining your search.
           </p>
         </div>
       );
     }
   };
 
-  // Function to filter items based on search input
   const filterItems = (dataArray) => {
+    const keywords = searchInput.trim().toLowerCase().split(" ");
+
     return dataArray
       .filter((item) => {
-        return searchInput.trim().toLowerCase() === ""
-          ? false
-          : item.name
-              .toLowerCase()
-              .includes(searchInput.trim().toLowerCase()) ||
-              item.category
-                .toLowerCase()
-                .includes(searchInput.trim().toLowerCase()) ||
-              item.color
-                .toLowerCase()
-                .includes(searchInput.trim().toLowerCase());
+        const combinedText =
+          `${item.name} ${item.category} ${item.color}`.toLowerCase();
+        return keywords.every((keyword) => combinedText.includes(keyword));
       })
       .map((item) => (
         <div className="shadow-sm shadow-black rounded-md p-4 " key={item.id}>
@@ -79,8 +70,7 @@ export const Search = () => {
             <span className="flex items-center justify-between">
               <h1 className="text-sm  text-gray-800">{item.name}</h1>
               <h2 className="text-sm lg:text-sm  text-gray-600">
-                ₦{" "}
-                {item.price.toLocaleString().toLocaleString().toLocaleString()}
+                ₦ {item.price.toLocaleString()}
               </h2>
             </span>
           </span>
@@ -118,13 +108,17 @@ export const Search = () => {
           />
         </div>
 
-        {/* Filtered results */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 p-2 md:p-4">
-          {filterItems(product.products)}
-        </div>
+        {searchInput.trim() !== "" && (
+          <>
+            {/* Filtered results */}
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 p-2 md:p-4">
+              {filterItems(product.products)}
+            </div>
 
-        {/* No results */}
-        {handleNoInput(product.products)}
+            {/* No results */}
+            {handleNoInput(product.products)}
+          </>
+        )}
       </div>
     </motion.div>
   );
